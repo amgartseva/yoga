@@ -1,0 +1,22 @@
+.number {
+  text-align: right;
+  color: $numbers;
+  font-size: 30px;
+  line-height: 15px;
+  position: absolute;
+  right: 67px;
+
+  @media (max-width: 767px) {
+    display: none;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 44px;
+    top: 5px;
+    width: 125px;
+    height: 1px;
+    background-color: $number-line;
+  }
+}

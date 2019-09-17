@@ -1,0 +1,30 @@
+.header {
+  background-image: url('/img/yoga_header@1x.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  height: 100vh;
+  color: $purple-header;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__middle {
+  text-align: center;
+}
+
+.header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__number {
+  top: 399px;
+
+  @media (max-width: 1023px) {
+    top: 210px;
+  }
+}

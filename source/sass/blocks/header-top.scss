@@ -1,0 +1,35 @@
+.header-top {
+  padding-top: 70px;
+}
+
+.header-top__menu {
+  font-size: 16px;
+  line-height: 10px;
+  position: relative;
+  padding-left: 25px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 1px;
+    background-color: $purple-header;
+    left: -5px;
+    box-shadow: 0 6px 0 $purple-header;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 1px;
+    background-color: $purple-header;
+    left: -5px;
+    top: 12px;
+  }
+}
+
+.header-top__phone {
+  font-size: 16px;
+  line-height: 10px;
+}
