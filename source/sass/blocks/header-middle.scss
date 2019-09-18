@@ -13,6 +13,8 @@
 
   @media (max-width: 767px) {
     font-size: 18px;
+    margin-left: 30px;
+    margin-bottom: 34px;
   }
 }
 
@@ -36,6 +38,8 @@
   @media (max-width: 767px) {
     font-size: 67px;
     letter-spacing: 0.26em;
+    margin-left: 18px;
+    margin-bottom: 40px;
   }
 }
 
@@ -46,5 +50,9 @@
   @media (max-width: 1023px) {
     margin-left: 241px;
     margin-bottom: 56px;
+  }
+
+  @media (max-width: 767px) {
+    margin-left: 57px;
   }
 }

@@ -4,51 +4,6 @@
   align-items: flex-start;
 }
 
-.header-top__menu {
-  font-size: 16px;
-  position: relative;
-  padding-left: 36px;
-  margin: 0;
-
-  &::before {
-    content: "";
-    position: absolute;
-    width: 24px;
-    height: 1px;
-    background-color: $purple-header;
-    left: 0;
-    top: 2px;
-    box-shadow: 0 6px 0 $purple-header;
-  }
-
-  &::after {
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 1px;
-    background-color: $purple-header;
-    left: 0;
-    top: 14px;
-  }
-
-  @media (max-width: 1023px) {
-    font-size: 12px;
-    padding-left: 30px;
-
-    &::before {
-      width: 13px;
-      left: 10px;
-      box-shadow: 0 3px 0 $purple-header;
-    }
-
-    &::after {
-      width: 8px;
-      left: 10px;
-      top: 9px;
-    }
-  }
-}
-
 .header-top__phone {
   font-size: 16px;
   padding: 0;

@@ -6,4 +6,9 @@
     padding-right: 65px;
     padding-left: 65px;
   }
+
+  @media (max-width: 767px) {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
 }
