@@ -5,6 +5,10 @@
   margin: 0;
   height: 100vh;
   color: $purple-header;
+
+  @media (max-width: 767px) {
+    background-image: url('/img/yoga_header_mobile@1x.png');
+  }
 }
 
 .header__top {
