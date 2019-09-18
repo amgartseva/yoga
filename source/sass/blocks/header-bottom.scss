@@ -1,5 +1,9 @@
 .header-bottom {
-  align-items: center;
+  align-items: flex-start;
+}
+
+.header-bottom__social {
+  margin: 0;
 }
 
 .header-bottom__address {

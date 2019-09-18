@@ -1,13 +1,13 @@
 .header-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .header-top__menu {
   font-size: 16px;
   position: relative;
-  padding-left: 32px;
+  padding-left: 36px;
   margin: 0;
 
   &::before {
@@ -16,7 +16,8 @@
     width: 24px;
     height: 1px;
     background-color: $purple-header;
-    left: -5px;
+    left: 0;
+    top: 2px;
     box-shadow: 0 6px 0 $purple-header;
   }
 
@@ -26,13 +27,14 @@
     width: 14px;
     height: 1px;
     background-color: $purple-header;
-    left: -5px;
-    top: 12px;
+    left: 0;
+    top: 14px;
   }
 }
 
 .header-top__phone {
   font-size: 16px;
   padding: 0;
+  padding-top: 5px;
   margin: 0;
 }

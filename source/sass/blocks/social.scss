@@ -1,25 +1,23 @@
 .social {
   display: flex;
-  width: 60px;
+  width: 65px;
   justify-content: space-between;
 }
 
 .social__link {
   font-size: 0;
-  width: 16px;
-  height: 11px;
+  width: 15px;
+  height: 15px;
   display: block;
-  background-repeat: no-repeat;
+}
 
-  &--vk {
-    background-image: url('/img/icons/VK.svg');
-  }
-
+.social__icon {
   &--tw {
-    background-image: url('/img/icons/Twitter.svg');
+    margin-top: -1px;
   }
 
   &--fb {
-    background-image: url('/img/icons/Facebook.svg');
+    margin-top: -1px;
+    margin-left: 3px;
   }
 }
