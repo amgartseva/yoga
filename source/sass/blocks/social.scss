@@ -2,6 +2,12 @@
   display: flex;
   width: 65px;
   justify-content: space-between;
+
+  @media (max-width: 1023px) {
+    width: 35px;
+    margin-left: 11px;
+    margin-top: 10px;
+  }
 }
 
 .social__link {
@@ -19,5 +25,23 @@
   &--fb {
     margin-top: -1px;
     margin-left: 3px;
+  }
+
+  @media (max-width: 1023px) {
+    &--vk {
+      width: 7px;
+    }
+
+    &--tw {
+      width: 9px;
+      margin-top: -2px;
+      margin-left: 2px;
+    }
+
+    &--fb {
+      width: 3px;
+      margin-top: -2px;
+      margin-left: 5px;
+    }
   }
 }

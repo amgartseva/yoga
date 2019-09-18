@@ -1,6 +1,6 @@
 .header {
   background-image: url('/img/yoga_header@1x.png');
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   margin: 0;
   height: 100vh;
@@ -8,23 +8,15 @@
 }
 
 .header__top {
-  padding-top: 63px;
-  margin-bottom: 92px;
-}
-
-.header__middle {
-
-}
-
-.header__bottom {
-  display: flex;
-  justify-content: space-between;
+  padding-top: 35px;
+  margin-bottom: 45px;
 }
 
 .header__number {
   top: 364px;
 
   @media (max-width: 1023px) {
-    top: 210px;
+    top: 191px;
+    right: 32px;
   }
 }

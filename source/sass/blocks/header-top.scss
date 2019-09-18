@@ -30,6 +30,23 @@
     left: 0;
     top: 14px;
   }
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
+    padding-left: 30px;
+
+    &::before {
+      width: 13px;
+      left: 10px;
+      box-shadow: 0 3px 0 $purple-header;
+    }
+
+    &::after {
+      width: 8px;
+      left: 10px;
+      top: 9px;
+    }
+  }
 }
 
 .header-top__phone {
@@ -37,4 +54,9 @@
   padding: 0;
   padding-top: 5px;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
+    padding-top: 2px;
+  }
 }

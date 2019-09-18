@@ -7,10 +7,6 @@
   position: absolute;
   right: 105px;
 
-  @media (max-width: 767px) {
-    display: none;
-  }
-
   &::after {
     content: "";
     position: absolute;
@@ -19,5 +15,18 @@
     width: 93px;
     height: 2px;
     background-color: $number-line;
+  }
+
+  @media (max-width: 1023px) {
+    font-size: 18px;
+
+    &::after {
+      width: 20px;
+      left: 33px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    display: none;
   }
 }
