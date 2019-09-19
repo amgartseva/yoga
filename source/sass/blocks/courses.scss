@@ -1,3 +1,50 @@
 .courses {
-  height: 100vh;
+  min-height: 100vh;
+  background-image: url("/img/yoga_pattern_screen_2@1x.png");
+  background-repeat: no-repeat;
+  background-size: 1257px auto;
+  background-position: -12px -62px;
+}
+
+.courses__heading {
+  font-family: "Geometria Bold", "Arial", sans-serif;
+  color: $purple-dark;
+  font-size: 30px;
+  line-height: 15px;
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.courses__number {
+  top: 1065px;
+  right: 100px;
+}
+
+.courses__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-right: 155px;
+}
+
+.courses__link {
+  color: $purple-dark;
+  text-decoration: none;
+
+  &--more {
+    background-color: $white;
+    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    width: 521px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 56px;
+  }
+}
+
+.courses__column .courses__link {
+  margin-bottom: 28px;
+  display: block;
 }
