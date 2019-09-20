@@ -1,17 +1,41 @@
 .timetable {
   font-size: 12px;
   line-height: 20px;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 
 .courses__column .timetable {
   margin-top: 13px;
+
+  @media (max-width: 1023px) {
+    margin-top: 4px;
+  }
 }
 
 .timetable__first {
   margin-bottom: 0;
+
+  @media (max-width: 1023px) {
+    margin-top: 5px;
+  }
 }
+
+.courses__column .timetable__first {
+    @media (max-width: 1023px) {
+      margin-top: 0;
+    }
+}
+
 
 .timetable__second {
   margin: 0;
   margin-bottom: 17px;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 0px;
+  }
 }

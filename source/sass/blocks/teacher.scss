@@ -2,12 +2,24 @@
   font-size: 12px;
   line-height: 15px;
   color: $pink;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+  }
 }
 
 .teacher__position {
   margin-bottom: 0;
+
+  @media (max-width: 1023px) {
+    margin-top: 8px;
+  }
 }
 
 .teacher__name {
   margin-top: 0;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 0;
+  }
 }
