@@ -1,0 +1,17 @@
+.length {
+  color: $pink;
+  display: flex;
+  justify-content: space-between;
+  width: 286px;
+  margin: 0 auto;
+}
+
+.length__item {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 20px;
+
+  &--active {
+    border-bottom: 1px solid $pink;
+  }
+}

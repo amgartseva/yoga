@@ -1,0 +1,79 @@
+.options  {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 931px;
+  margin: 0 auto;
+}
+
+.options__item {
+  background-color: $white;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  text-align: center;
+  box-sizing: border-box;
+  width: 263px;
+  padding-top: 39px;
+  padding-bottom: 54px;
+
+  &:hover {
+    width: 331px;
+    padding-bottom: 58px;
+    transition: width 0.5s linear;
+
+    & .options__btn {
+      display: block;
+    }
+
+    & .options__info {
+      margin-left: 80px;
+      margin-right: 80px;
+      margin-bottom: 30px;
+    }
+
+    & .options__btn {
+      box-sizing: border-box;
+      height: 52px;
+      margin-top: 37px;
+    }
+  }
+}
+
+.options__heading {
+  font-size: 18px;
+  line-height: 20px;
+  color: $purple-dark;
+}
+
+.options__info {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  color: $pink;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 27px;
+}
+
+.options__price {
+  font-size: 30px;
+  line-height: 20px;
+  color: $purple-dark;
+  margin: 0;
+}
+
+.options__btn {
+  font-family: "Geometria Medium", "Arial", sans-serif;
+  color: $white;
+  cursor: pointer;
+  display: none;
+  border: none;
+  background-color: $purple-dark;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 auto;
+  width: 223px;
+  box-sizing: border-box;
+  height: 52px;
+  margin-top: 37px;
+}

@@ -1,3 +1,26 @@
 .subscribtion {
   min-height: 100vh;
+  text-align: center;
+  background-image: url('/img/yoga_clouds@1x.png');
+  background-position: 0px -70px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribtion__number {
+  top: 1762px;
+  right: 100px;
+}
+
+.subscribtion__heading {
+  font-size: 30px;
+  line-height: 15px;
+  color: $purple-dark;
+  margin: 0;
+  margin-top: -8px;
+  margin-bottom: 43px;
+}
+
+.subscribtion__length {
+  padding-bottom: 37px;
 }
