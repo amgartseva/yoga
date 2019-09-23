@@ -4,6 +4,11 @@
   justify-content: space-between;
   width: 931px;
   margin: 0 auto;
+
+  @media (max-width: 1023px) {
+    width: 623px;
+    margin-left: 78px;
+  }
 }
 
 .options__item {
@@ -20,10 +25,6 @@
     padding-bottom: 58px;
     transition: width 0.5s linear;
 
-    & .options__btn {
-      display: block;
-    }
-
     & .options__info {
       margin-left: 80px;
       margin-right: 80px;
@@ -31,9 +32,32 @@
     }
 
     & .options__btn {
+      display: block;
       box-sizing: border-box;
       height: 52px;
       margin-top: 37px;
+    }
+  }
+
+  @media (max-width: 1023px) {
+    width: 176px;
+    padding-top: 21px;
+    padding-bottom: 28px;
+
+    &:hover {
+      width: 221px;
+      padding-bottom: 38px;
+
+      & .options__info {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 15px;
+      }
+
+      & .options__btn {
+        margin-top: 18px;
+        height: 35px;
+      }
     }
   }
 }
@@ -42,6 +66,10 @@
   font-size: 18px;
   line-height: 20px;
   color: $purple-dark;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 8px;
+  }
 }
 
 .options__info {
@@ -52,6 +80,15 @@
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 27px;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
 }
 
 .options__price {
@@ -59,6 +96,10 @@
   line-height: 20px;
   color: $purple-dark;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 21px;
+  }
 }
 
 .options__btn {
@@ -76,4 +117,10 @@
   box-sizing: border-box;
   height: 52px;
   margin-top: 37px;
+
+  @media (max-width: 1023px) {
+    width: 149px;
+    height: 35px;
+    font-size: 10px;
+  }
 }

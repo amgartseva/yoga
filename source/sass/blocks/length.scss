@@ -4,6 +4,11 @@
   justify-content: space-between;
   width: 286px;
   margin: 0 auto;
+
+  @media (max-width: 1023px) {
+    width: 239px;
+    margin-left: 269px;
+  }
 }
 
 .length__item {
@@ -13,5 +18,9 @@
 
   &--active {
     border-bottom: 1px solid $pink;
+  }
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
   }
 }
