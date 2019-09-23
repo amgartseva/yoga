@@ -1,0 +1,33 @@
+.review-slider {
+  width: 905px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin: 0 auto;
+}
+
+.review-slider__btn-left {
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  background-color: $purple-dark;
+  left: -15px;
+  top: 142px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-top: 8px;
+  cursor: pointer;
+}
+
+.review-slider__btn-right {
+  position: absolute;
+  width: 45px;
+  height: 30px;
+  background-color: $purple-dark;
+  right: -24px;
+  top: 142px;
+  padding-left: 16px;
+  padding-top: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

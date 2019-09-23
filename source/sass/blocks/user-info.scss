@@ -1,0 +1,25 @@
+.user-info {
+  display: flex;
+  align-items: flex-start;
+}
+
+.user-info__image {
+  margin-right: 13px;
+}
+
+.user-info__name {
+  font-size: 12px;
+  line-height: 20px;
+  color: $pink-light;
+  margin: 0;
+  margin-top: -4px;
+  margin-bottom: 0;
+}
+
+.user-info__date {
+  font-size: 10px;
+  line-height: 14px;
+  color: $purple-opacity;
+  margin: 0;
+  margin-bottom: 4px;
+}
