@@ -3,6 +3,12 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media (max-width: 1023px) {
+      width: 25px;
+      margin-right: 11px;
+      margin-top: -3px;
+    }
 }
 
 .teacher-social__link {
@@ -10,6 +16,16 @@
   text-decoration: none;
 }
 
+.teacher-social__icon--vk {
+  @media (max-width: 1023px) {
+    width: 9px;
+  }
+}
+
 .teacher-social__icon--tw {
   margin-top: 6px;
+
+  @media (max-width: 1023px) {
+    width: 11px;
+  }
 }

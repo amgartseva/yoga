@@ -2,4 +2,8 @@
   display: flex;
   margin-left: 135px;
   align-items: flex-start;
+
+  @media (max-width: 1023px) {
+    margin-left: 93px;
+  }
 }

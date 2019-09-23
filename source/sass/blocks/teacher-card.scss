@@ -9,6 +9,15 @@
   padding-right: 25px;
   padding-bottom: 17px;
   margin-bottom: 90px;
+
+  @media (max-width: 1023px) {
+    width: 255px;
+    padding-left: 83px;
+    padding-top: 10px;
+    padding-right: 12px;
+    padding-bottom: 3px;
+    margin-bottom: 58px;
+  }
 }
 
 .teacher-card__teacher-position {
@@ -16,6 +25,11 @@
   line-height: 20px;
   color: $pink;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 
 .teacher-card__teacher-name {
@@ -23,6 +37,11 @@
   line-height: 20px;
   color: $pink;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 15px;
+  }
 }
 
 .teacher-card__course {
@@ -30,12 +49,22 @@
   line-height: 20px;
   color: $purple-dark;
   margin: 0;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+  }
 }
 
 .teacher-card__photo {
   position: absolute;
   left: -23px;
   top: -55px;
+
+  @media (max-width: 1023px) {
+    left: -15px;
+    top: -35px;
+    width: 90px;
+  }
 }
 
 .teacher-card__info-btn {
@@ -50,12 +79,33 @@
   padding-right: 0;
   padding-bottom: 0;
   cursor: pointer;
+
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 20px;
+    margin-top: -12px;
+    border: none;
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      background-color: $purple-dark;
+      width: 48px;
+      height: 1px;
+      top: 22px;
+    }
+  }
 }
 
 .teacher-card__container-top {
   display: flex;
   justify-content: space-between;
   margin-bottom: 9px;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 4px;
+  }
 }
 
 .teacher-card__container-bottom {

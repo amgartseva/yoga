@@ -1,6 +1,10 @@
 .description {
   width: 500px;
   padding-top: 10px;
+
+  @media (max-width: 1023px) {
+    width: 350px;
+  }
 }
 
 .description__name {
@@ -9,6 +13,11 @@
   color: $purple-dark;
   margin: 0;
   margin-bottom: 10px;
+
+  @media (max-width: 1023px) {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
 }
 
 .description__experience {
@@ -17,6 +26,11 @@
   color: $pink;
   margin: 0;
   margin-bottom: 24px;
+
+  @media (max-width: 1023px) {
+    font-size: 12px;
+    margin-bottom: 9px;
+  }
 }
 
 .description__info {
@@ -24,9 +38,19 @@
   line-height: 20px;
   color: $purple-dark;
 
+  @media (max-width: 1023px) {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
   & p {
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
+
+    @media (max-width: 1023px) {
+      padding-right: 45px;
+      margin-bottom: 17px;
+    }
 
     &:nth-child(2) {
       padding-right: 45px;
@@ -34,10 +58,18 @@
 
     &:nth-child(3) {
       padding-right: 130px;
+
+      @media (max-width: 1023px) {
+        padding-right: 40px;
+      }
     }
 
     &:nth-child(4) {
       padding-right: 170px;
+
+      @media (max-width: 1023px) {
+        padding-right: 60px;
+      }
     }
   }
 }
