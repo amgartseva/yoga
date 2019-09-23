@@ -9,6 +9,11 @@
     width: 239px;
     margin-left: 269px;
   }
+
+  @media (max-width: 767px) {
+    width: 222px;
+    margin: 0 auto;
+  }
 }
 
 .length__item {
