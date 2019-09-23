@@ -1,0 +1,43 @@
+.description {
+  width: 500px;
+  padding-top: 10px;
+}
+
+.description__name {
+  font-size: 18px;
+  line-height: 20px;
+  color: $purple-dark;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.description__experience {
+  font-size: 14px;
+  line-height: 20px;
+  color: $pink;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.description__info {
+  font-size: 12px;
+  line-height: 20px;
+  color: $purple-dark;
+
+  & p {
+    margin: 0;
+    margin-bottom: 20px;
+
+    &:nth-child(2) {
+      padding-right: 45px;
+    }
+
+    &:nth-child(3) {
+      padding-right: 130px;
+    }
+
+    &:nth-child(4) {
+      padding-right: 170px;
+    }
+  }
+}

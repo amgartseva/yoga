@@ -1,3 +1,21 @@
 .team {
   min-height: 100vh;
+  background-image: url("/img/yoga_pattern_screen_1@1x.png");
+  background-repeat: no-repeat;
+  background-position: 688px 20px;
+  position: relative;
+}
+
+.team__heading {
+  font-size: 30px;
+  line-height: 15px;
+  color: $purple-dark;
+  margin-top: -121px;
+  margin-left: 467px;
+  margin-bottom: 110px;
+}
+
+.team__number {
+  top: 315px;
+  right: -60px;
 }

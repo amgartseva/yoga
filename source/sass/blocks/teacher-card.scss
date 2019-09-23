@@ -1,0 +1,64 @@
+.teacher-card {
+  background-color: $white;
+  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  position: relative;
+  width: 399px;
+  box-sizing: border-box;
+  padding-left: 141px;
+  padding-top: 18px;
+  padding-right: 25px;
+  padding-bottom: 17px;
+  margin-bottom: 90px;
+}
+
+.teacher-card__teacher-position {
+  font-size: 12px;
+  line-height: 20px;
+  color: $pink;
+  margin: 0;
+}
+
+.teacher-card__teacher-name {
+  font-size: 12px;
+  line-height: 20px;
+  color: $pink;
+  margin: 0;
+}
+
+.teacher-card__course {
+  font-size: 12px;
+  line-height: 20px;
+  color: $purple-dark;
+  margin: 0;
+}
+
+.teacher-card__photo {
+  position: absolute;
+  left: -23px;
+  top: -55px;
+}
+
+.teacher-card__info-btn {
+  font-family: "Geometria Medium";
+  background: transparent;
+  border: none;
+  color: $purple-dark;
+  font-size: 12px;
+  line-height: 15px;
+  border-bottom: 1px solid $purple-dark;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  cursor: pointer;
+}
+
+.teacher-card__container-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+
+.teacher-card__container-bottom {
+  display: flex;
+  justify-content: space-between;
+}

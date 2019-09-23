@@ -1,0 +1,39 @@
+.controls {
+  display: flex;
+  margin-top: -45px;
+  margin-left: 244px;
+}
+
+.controls__left-btn {
+  width: 45px;
+  height: 30px;
+  border: 1px solid $purple-dark;
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-top: 6px;
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+.controls__right-btn {
+  width: 45px;
+  height: 30px;
+  background-color: $purple-dark;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.controls__pages {
+  font-size: 13px;
+  line-height: 20px;
+  margin: 0;
+  margin-top: 4px;
+  color: $purple-dark;
+  margin-right: 19px;
+}
+
+.controls__active-page {
+  font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.teacher-social {
+    width: 39px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.teacher-social__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.teacher-social__icon--tw {
+  margin-top: 6px;
+}
