@@ -1,0 +1,43 @@
+.form {
+  width: 415px;
+}
+
+.form__header {
+  font-size: 30px;
+  line-height: 40px;
+  color: $purple-dark;
+  width: 411px;
+  margin-bottom: 43px;
+}
+
+.form__input {
+  width: 407px;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: transparent;
+  border: none;
+  font-family: "Geometria Medium", "Arial", sans-serif;
+  color: $purple-dark;
+  border-bottom: 1px solid $purple-dark;
+  padding-bottom: 6px;
+  margin-bottom: 45px;
+
+  &::placeholder {
+    color: $purple-light;
+  }
+}
+
+.form__btn {
+  width: 407px;
+  font-family: "Geometria Medium", "Arial", sans-serif;
+  color: $white;
+  box-sizing: border-box;
+  border: none;
+  background-color: $pink;
+  margin-top: 13px;
+  padding-top: 17px;
+  padding-bottom: 18px;
+  font-size: 14px;
+  line-height: 20px;
+}

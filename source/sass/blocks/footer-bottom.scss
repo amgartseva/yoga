@@ -1,0 +1,16 @@
+.footer-bottom {
+  background-color: $purple-footer;
+}
+
+.footer-bottom__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 12px;
+  line-height: 20px;
+  color: $white-opacity;
+  padding-top: 19px;
+  margin-left: 154px;
+  margin-right: 122px;
+  padding-bottom: 7px;
+}
