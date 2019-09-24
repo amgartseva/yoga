@@ -6,6 +6,10 @@
   padding-left: 87px;
   padding-top: 33px;
   padding-bottom: 26px;
+
+  @media (max-width: 1023px) {
+    margin-bottom: 18px;
+  }
 }
 
 .review__text {
@@ -15,6 +19,10 @@
   margin-top: 11px;
   padding-right: 55px;
   margin-bottom: 22px;
+
+  @media (max-width: 1023px) {
+    margin-top: 10px;
+  }
 
   & p {
     margin: 0;
