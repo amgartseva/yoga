@@ -13,4 +13,32 @@
   margin-left: 154px;
   margin-right: 122px;
   padding-bottom: 7px;
+
+  @media (max-width: 1023px) {
+    justify-content: flex-start;
+    padding-top: 1px;
+    margin-left: 75px;
+    padding-bottom: 65px;
+  }
+}
+
+.footer-bottom__site {
+    @media (max-width: 1023px) {
+      order: 2;
+      margin-left: 40px;
+    }
+}
+
+.footer-bottom__info {
+  display: none;
+
+  @media (max-width: 1023px) {
+    display: flex;
+    color: $white;
+
+    & .footer-social__icon path {
+      fill: $white;
+      fill-opacity: 1;
+    }
+  }
 }

@@ -7,6 +7,12 @@
   width: 340px;
   padding-top: 119px;
   margin-right: 173px;
+
+  @media (max-width: 1023px) {
+    margin-right: 0;
+    padding-top: 61px;
+    margin-left: 78px;
+  }
 }
 
 .footer-info__address {
