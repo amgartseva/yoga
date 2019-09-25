@@ -134,3 +134,11 @@
     width: 5px;
   }
 }
+
+.review-slider__item {
+  display: none;
+
+  &--active {
+    display: block;
+  }
+}
