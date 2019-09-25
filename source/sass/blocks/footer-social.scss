@@ -3,6 +3,10 @@
   width: 57px;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media (max-width: 767px) {
+    width: 115px;
+  }
 }
 
 .footer-social__link {
@@ -11,4 +15,26 @@
 
 .footer-social__icon--tw {
   padding-top: 3px;
+
+  @media (max-width: 767px) {
+    width: 29px;
+    height: 20px;
+    padding-top: 0;
+    margin-top: -1px;
+  }
+}
+
+.footer-social__icon--vk {
+  @media (max-width: 767px) {
+    width: 25px;
+    height: 15px;
+  }
+}
+
+.footer-social__icon--fb {
+  @media (max-width: 767px) {
+    width: 10px;
+    height: 21px;
+    margin-top: -2px;
+  }
 }

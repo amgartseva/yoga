@@ -1,5 +1,9 @@
 .reviews {
   min-height: 100vh;
+
+  @media (max-width: 767px) {
+    min-height: 370px;
+  }
 }
 
 .reviews__heading {

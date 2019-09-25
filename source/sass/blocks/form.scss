@@ -1,5 +1,9 @@
 .form {
   width: 415px;
+
+  @media (max-width: 768px) {
+    width: 320px;
+  }
 }
 
 .form__header {
@@ -8,6 +12,13 @@
   color: $purple-dark;
   width: 411px;
   margin-bottom: 43px;
+
+  @media (max-width: 768px) {
+    font-size: 20px;
+    line-height: 27px;
+    width: 274px;
+    margin-bottom: 26px;
+  }
 }
 
 .form__input {
@@ -26,6 +37,12 @@
   &::placeholder {
     color: $purple-light;
   }
+
+  @media (max-width: 768px) {
+    width: 250px;
+    padding-bottom: 9px;
+    margin-bottom: 27px;
+  }
 }
 
 .form__btn {
@@ -41,4 +58,10 @@
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
+
+  @media (max-width: 768px) {
+    width: 250px;
+    margin-top: 6px;
+    padding-top: 19px;
+  }
 }

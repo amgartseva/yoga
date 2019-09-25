@@ -9,4 +9,10 @@
     margin-top: 189px;
     background-size: 768px auto;
   }
+
+  @media (max-width: 768px) {
+    background-image: url("/img/yoga_footer_mobile@1x.png");
+    margin-top: 69px;
+    background-size: contain;
+  }
 }
