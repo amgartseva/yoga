@@ -17,6 +17,13 @@
     margin-left: 350px;
     margin-bottom: 40px;
   }
+
+  @media (max-width: 767px) {
+    font-size: 18px;
+    margin-top: 32px;
+    margin-left: 125px;
+    margin-bottom: 38px;
+  }
 }
 
 .reviews__number {
