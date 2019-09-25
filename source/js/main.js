@@ -143,15 +143,12 @@ function onTeamSliderRightBtnMobile () {
   var curSlideIndex = teamSlides.indexOf(teamSlider.querySelector('.teachers-list__item--active'));
   var nextSlideIndex = 0;
   var maxIndex = teamSlides.length - 1;
-  var nextPage = 1;
 
   teamSlides[curSlideIndex].classList.remove('teachers-list__item--active');
   if (curSlideIndex !== maxIndex) {
     nextSlideIndex = curSlideIndex + 1;
-    nextPage = teamActivePage.textContent + 1;
   }
   teamSlides[nextSlideIndex].classList.add('teachers-list__item--active');
-  teamActivePage.innerHTML = nextPage;
 }
 
 function onTeamSliderLeftBtnMobile () {
