@@ -1,12 +1,12 @@
 .team {
   min-height: 100vh;
-  background-image: url("/img/yoga_pattern_screen_1@1x.png");
+  background-image: url("../img/yoga_pattern_screen_1@1x.png");
   background-repeat: no-repeat;
   background-position: 688px 20px;
   position: relative;
 
   @media (max-width: 767px) {
-    min-height: 500px; 
+    min-height: 500px;
   }
 }
 

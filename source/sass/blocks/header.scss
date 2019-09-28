@@ -1,5 +1,5 @@
 .header {
-  background-image: url('/img/yoga_header@1x.png');
+  background-image: url('../img/yoga_header@1x.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,7 +14,7 @@
   }
 
   @media (max-width: 767px) {
-    background-image: url('/img/yoga_header_mobile@1x.png');
+    background-image: url('../img/yoga_header_mobile@1x.png');
     min-height: 260px;
   }
 }

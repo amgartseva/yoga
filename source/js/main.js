@@ -136,7 +136,7 @@ function onTeamSliderLeftBtn () {
   teamSlides[nextSlideIndex].classList.add('teachers-list__item--active');
   teamSlides[nextSlideIndex + 1].classList.add('teachers-list__item--active');
   teamSlides[nextSlideIndex + 2].classList.add('teachers-list__item--active');
-  teamsActivePage.innerHTML = nextPage;
+  teamActivePage.innerHTML = nextPage;
 }
 
 function onTeamSliderRightBtnMobile () {
