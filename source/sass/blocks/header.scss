@@ -8,6 +8,10 @@
   color: $purple-header;
   padding-bottom: 62px;
 
+  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    background-image: url("../img/yoga_header@2x.png");
+  }
+
   @media (max-width: 1023px) {
     min-height: 430px;
     padding-bottom: 3px;
@@ -16,6 +20,10 @@
   @media (max-width: 767px) {
     background-image: url("../img/yoga_header_mobile@1x.png");
     min-height: 260px;
+
+    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+      background-image: url("../img/yoga_header_mobile@2x.png");
+    }
   }
 }
 

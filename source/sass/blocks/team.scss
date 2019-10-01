@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   background-position: 688px 20px;
 
+  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    background-image: url("../img/yoga_pattern_screen_1@2x.png");
+  }
+
   @media (max-width: 767px) {
     min-height: 500px;
   }

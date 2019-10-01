@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 
+  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    background-image: url("../img/yoga_clouds@2x.png");
+  }
+
   @media (max-width: 1023px) {
     background-position: 0 -100px;
   }

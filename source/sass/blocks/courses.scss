@@ -5,6 +5,10 @@
   background-size: 1257px auto;
   background-position: 150px -62px;
 
+  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    background-image: url("../img/yoga_pattern_screen_2@2x.png");
+  }
+
   @media (max-width: 1023px) {
     background-size: 693px auto;
     background-position: 5px -20px;
@@ -14,6 +18,10 @@
     background-image: url("../img/yoga_pattern_screen_2_mobile@1x.png");
     background-size: 216px auto;
     background-position: 0 145px;
+
+    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+      background-image: url("../img/yoga_pattern_screen_2_mobile@2x.png");
+    }
   }
 }
 
