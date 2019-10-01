@@ -7,12 +7,12 @@
   @media (max-width: 1023px) {
     background-image: url("../img/yoga_footer_tablet@1x.png");
     margin-top: 189px;
-    background-size: 768px auto;
+    background-size: 100% 475px;
   }
 
   @media (max-width: 768px) {
     background-image: url("../img/yoga_footer_mobile@1x.png");
     margin-top: 69px;
-    background-size: contain;
+    background-size: 100% 391px;
   }
 }

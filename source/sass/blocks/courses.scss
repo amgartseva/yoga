@@ -13,7 +13,7 @@
   @media (max-width: 767px) {
     background-image: url("../img/yoga_pattern_screen_2_mobile@1x.png");
     background-size: 216px auto;
-    background-position: 0px 145px;
+    background-position: 0 145px;
   }
 }
 
@@ -72,7 +72,7 @@
   display: block;
 
   &:hover {
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 1);
+    box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
   }
 
   @media (max-width: 767px) {
@@ -94,7 +94,7 @@
 
   &--more {
     background-color: $white;
-    box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+    box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
     width: 521px;
     text-align: center;
     font-size: 12px;
@@ -102,10 +102,10 @@
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 56px;
-    margin-bottom: 0px;
+    margin-bottom: 0;
 
     &:hover {
-      box-shadow: 0px 4px 25px rgba(142, 128, 169, 1);
+      box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
     }
 
     @media (max-width: 1023px) {

@@ -1,5 +1,5 @@
 .wrapper {
-  width: $desktop-width;
+  max-width: $desktop-width;
   margin: 0 auto;
 
   @media (max-width: 1023px) {

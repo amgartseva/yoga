@@ -1,10 +1,14 @@
 .subscribtion {
   min-height: 100vh;
   text-align: center;
-  background-image: url('../img/yoga_clouds@1x.png');
-  background-position: 0px -70px;
+  background-image: url("../img/yoga_clouds@1x.png");
+  background-position: 0 -70px;
   background-repeat: no-repeat;
   background-size: cover;
+
+  @media (max-width: 1023px) {
+    background-position: 0 -100px;
+  }
 
   @media (max-width: 767px) {
     min-height: 700px;
@@ -31,7 +35,7 @@
 
   @media (max-width: 1023px) {
     font-size: 21px;
-    margin-top: -210px;
+    margin-top: -213px;
     margin-left: 8px;
     margin-bottom: 7px;
   }
@@ -39,7 +43,7 @@
   @media (max-width: 767px) {
     font-size: 18px;
     margin-top: 65px;
-    margin-left: 0px;
+    margin-left: 0;
     margin-bottom: 20px;
   }
 }

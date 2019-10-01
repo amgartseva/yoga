@@ -21,7 +21,7 @@
     padding-bottom: 65px;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: 767px) {
     flex-wrap: wrap;
     margin-left: 35px;
     margin-right: 40px;
@@ -29,15 +29,15 @@
 }
 
 .footer-bottom__site {
-    @media (max-width: 1023px) {
-      order: 2;
-      margin-left: 40px;
-    }
+  @media (max-width: 1023px) {
+    order: 2;
+    margin-left: 40px;
+  }
 
-    @media (max-width: 767px) {
-      margin-left: 0;
-      margin-top: 0;
-    }
+  @media (max-width: 767px) {
+    margin-left: 0;
+    margin-top: 0;
+  }
 }
 
 .footer-bottom__info {

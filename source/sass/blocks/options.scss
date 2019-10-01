@@ -1,4 +1,4 @@
-.options  {
+.options {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -18,7 +18,7 @@
 
 .options__item {
   background-color: $white;
-  box-shadow: 0px 4px 25px rgba(142, 128, 169, 0.2);
+  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
   text-align: center;
   box-sizing: border-box;
   width: 263px;

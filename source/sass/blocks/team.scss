@@ -3,7 +3,6 @@
   background-image: url("../img/yoga_pattern_screen_1@1x.png");
   background-repeat: no-repeat;
   background-position: 688px 20px;
-  position: relative;
 
   @media (max-width: 767px) {
     min-height: 500px;
@@ -24,6 +23,7 @@
     margin-left: 310px;
     margin-bottom: 60px;
   }
+
   @media (max-width: 767px) {
     font-size: 18px;
     margin-top: 68px;
@@ -33,11 +33,11 @@
 }
 
 .team__number {
-  top: 315px;
-  right: -60px;
+  top: 2478px;
+  right: 100px;
 
   @media (max-width: 1023px) {
-    top: 192px;
-    right: 27px;
+    top: 1590px;
+    right: 29px;
   }
 }

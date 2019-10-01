@@ -1,7 +1,6 @@
 'use strict';
 
 var MOBILE = 767;
-var TABLET = 1023;
 
 var screenWidth = screen.width;
 var reviews = document.querySelector('.reviews');
@@ -23,6 +22,7 @@ var teamSlides = Array.from(teamSlider.querySelectorAll('.teachers-list__item'))
 if (screenWidth <= MOBILE) {
   reviewsSlides[0].classList.add('review-slider__item--active');
   teamSlides[0].classList.add('teachers-list__item--active');
+
   reviewsSliderRightBtn.addEventListener('click', onSliderRightBtnMobile);
   reviewsSliderLeftBtn.addEventListener('click', onSliderLeftBtnMobile);
   teamSliderRightBtn.addEventListener('click', onTeamSliderRightBtnMobile);
@@ -43,7 +43,7 @@ if (screenWidth <= MOBILE) {
   teamSliderLeftBtn.addEventListener('click', onTeamSliderLeftBtn);
 }
 
-function onSliderRightBtn () {
+function onSliderRightBtn() {
   var curSlideIndex = reviewsSlides.indexOf(reviewsSlider.querySelector('.review-slider__item--active'));
   var nextSlideIndex = 0;
   var maxIndex = reviewsSlides.length - 2;
@@ -60,7 +60,7 @@ function onSliderRightBtn () {
   reviewsActivePage.innerHTML = nextPage;
 }
 
-function onSliderLeftBtn () {
+function onSliderLeftBtn() {
   var curSlideIndex = reviewsSlides.indexOf(reviewsSlider.querySelector('.review-slider__item--active'));
   var nextSlideIndex = reviewsSlides.length - 2;
   var nextPage = +reviewsLastPage.textContent;
@@ -76,7 +76,7 @@ function onSliderLeftBtn () {
   reviewsActivePage.innerHTML = nextPage;
 }
 
-function onSliderRightBtnMobile () {
+function onSliderRightBtnMobile() {
   var curSlideIndex = reviewsSlides.indexOf(reviewsSlider.querySelector('.review-slider__item--active'));
   var nextSlideIndex = 0;
   var maxIndex = reviewsSlides.length - 1;
@@ -85,24 +85,27 @@ function onSliderRightBtnMobile () {
   reviewsSlides[curSlideIndex].classList.remove('review-slider__item--active');
   if (curSlideIndex !== maxIndex) {
     nextSlideIndex = curSlideIndex + 1;
-    nextPage = reviewsActivePage.textContent + 1;
+    nextPage = +reviewsActivePage.textContent + 1;
   }
   reviewsSlides[nextSlideIndex].classList.add('review-slider__item--active');
   reviewsActivePage.innerHTML = nextPage;
 }
 
-function onSliderLeftBtnMobile () {
+function onSliderLeftBtnMobile() {
   var curSlideIndex = reviewsSlides.indexOf(reviewsSlider.querySelector('.review-slider__item--active'));
   var nextSlideIndex = reviewsSlides.length - 1;
+  var nextPage = +reviewsLastPage.textContent;
 
   reviewsSlides[curSlideIndex].classList.remove('review-slider__item--active');
   if (curSlideIndex !== 0) {
     nextSlideIndex = curSlideIndex - 1;
+    nextPage = +reviewsActivePage.textContent - 1;
   }
   reviewsSlides[nextSlideIndex].classList.add('review-slider__item--active');
+  reviewsActivePage.innerHTML = nextPage;
 }
 
-function onTeamSliderRightBtn () {
+function onTeamSliderRightBtn() {
   var curSlideIndex = teamSlides.indexOf(teamSlider.querySelector('.teachers-list__item--active'));
   var nextSlideIndex = 0;
   var maxIndex = teamSlides.length - 3;
@@ -121,7 +124,7 @@ function onTeamSliderRightBtn () {
   teamActivePage.innerHTML = nextPage;
 }
 
-function onTeamSliderLeftBtn () {
+function onTeamSliderLeftBtn() {
   var curSlideIndex = teamSlides.indexOf(teamSlider.querySelector('.teachers-list__item--active'));
   var nextSlideIndex = teamSlides.length - 3;
   var nextPage = +teamLastPage.textContent;
@@ -139,7 +142,7 @@ function onTeamSliderLeftBtn () {
   teamActivePage.innerHTML = nextPage;
 }
 
-function onTeamSliderRightBtnMobile () {
+function onTeamSliderRightBtnMobile() {
   var curSlideIndex = teamSlides.indexOf(teamSlider.querySelector('.teachers-list__item--active'));
   var nextSlideIndex = 0;
   var maxIndex = teamSlides.length - 1;
@@ -151,7 +154,7 @@ function onTeamSliderRightBtnMobile () {
   teamSlides[nextSlideIndex].classList.add('teachers-list__item--active');
 }
 
-function onTeamSliderLeftBtnMobile () {
+function onTeamSliderLeftBtnMobile() {
   var curSlideIndex = teamSlides.indexOf(teamSlider.querySelector('.teachers-list__item--active'));
   var nextSlideIndex = teamSlides.length - 1;
 

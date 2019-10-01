@@ -25,9 +25,9 @@
 }
 
 .courses__column .timetable__first {
-    @media (max-width: 1023px) {
-      margin-top: 0;
-    }
+  @media (max-width: 1023px) {
+    margin-top: 0;
+  }
 }
 
 
@@ -36,7 +36,7 @@
   margin-bottom: 17px;
 
   @media (max-width: 1023px) {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   @media (max-width: 767px) {
