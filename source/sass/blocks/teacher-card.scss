@@ -10,7 +10,7 @@
   padding-bottom: 17px;
   margin-bottom: 90px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 255px;
     padding-left: 83px;
     padding-top: 10px;
@@ -19,7 +19,7 @@
     margin-bottom: 58px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 228px;
     padding-left: 96px;
     padding-top: 16px;
@@ -33,7 +33,7 @@
   color: $pink;
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 15px;
   }
@@ -45,7 +45,7 @@
   color: $pink;
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 15px;
   }
@@ -57,7 +57,7 @@
   color: $purple-dark;
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
   }
 }
@@ -67,13 +67,13 @@
   left: -23px;
   top: -55px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     left: -15px;
     top: -35px;
     width: 90px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     top: 0;
     left: 0;
     width: 82px;
@@ -81,7 +81,7 @@
 }
 
 .teacher-card__info-btn {
-  font-family: "Geometria Medium", "Arial", sans-serif;
+  font-family: $main-font;
   background: transparent;
   border: none;
   color: $purple-dark;
@@ -93,7 +93,7 @@
   padding-bottom: 0;
   cursor: pointer;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 20px;
     margin-top: -12px;
@@ -110,7 +110,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
@@ -120,7 +120,7 @@
   justify-content: space-between;
   margin-bottom: 9px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-bottom: 4px;
   }
 }

@@ -3,11 +3,11 @@
   position: relative;
   margin: 0 auto;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-left: 169px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-left: 34px;
     width: 320px;
   }
@@ -18,12 +18,12 @@
   display: flex;
   justify-content: space-between;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 442px;
     flex-wrap: wrap;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 400px;
     height: 290px;
   }
@@ -32,7 +32,7 @@
 .review-slider__pages {
   display: none;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     display: block;
     position: absolute;
     font-size: 10px;
@@ -42,7 +42,7 @@
     left: 209px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     position: absolute;
     left: 115px;
     top: 289px;
@@ -66,7 +66,7 @@
   padding-top: 8px;
   cursor: pointer;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 29px;
     height: 19px;
     background-color: transparent;
@@ -81,7 +81,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     position: absolute;
     top: 300px;
     left: 75px;
@@ -104,7 +104,7 @@
   box-sizing: border-box;
   cursor: pointer;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 29px;
     height: 19px;
     top: 686px;
@@ -113,7 +113,7 @@
     padding-top: 3px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     position: absolute;
     top: 300px;
     left: 148px;
@@ -125,11 +125,11 @@
 }
 
 .review-slider__icon {
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 7px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 5px;
   }
 }

@@ -5,18 +5,18 @@
   padding-top: 38px;
   padding-bottom: 69px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-left: 182px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     padding-top: 42px;
     margin-left: 35px;
   }
 }
 
 .footer-top__info {
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     display: none;
   }
 }

@@ -6,7 +6,7 @@
 .user-info__image {
   margin-right: 13px;
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-left: 2px;
   }
 }

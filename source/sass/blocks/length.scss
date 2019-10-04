@@ -5,12 +5,12 @@
   width: 286px;
   margin: 0 auto;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 239px;
     margin-left: 269px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 222px;
     margin: 0 auto;
   }
@@ -25,7 +25,7 @@
     border-bottom: 1px solid $pink;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
   }
 }

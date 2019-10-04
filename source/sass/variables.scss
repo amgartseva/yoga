@@ -2,9 +2,9 @@ $white: #ffffff;
 $white-opacity: rgba(255, 255, 255, 0.5);
 
 $primary-color: #fcf8fe;
-$icons: rgba(139, 126, 172, 0.65);
-$numbers: rgba(174, 164, 200, 0.5);
-$number-line: rgba(139, 126, 172, 0.73);
+$icons-color: rgba(139, 126, 172, 0.65);
+$numbers-color: rgba(174, 164, 200, 0.5);
+$number-line-color: rgba(139, 126, 172, 0.73);
 
 $pink: #e65c7b;
 $pink-light: rgba(230, 92, 123, 0.7);
@@ -18,6 +18,12 @@ $purple-header: #8b7eac;
 $desktop-width: 1200px;
 $tablet-width: 768px;
 $mobile-width: 320px;
+$tablet-breakpoint: 1023px;
+$mobile-breakpoint: 767px;
 
 $retina-dpi: 144dpi;
 $retina-dppx: 1,5dppx;
+
+$cursive-font: "Caveat", "Arial", sans-serif;
+$main-font: "Geometria Medium", "Arial", sans-serif;
+$main-bold-font: "Geometria Bold", "Arial", sans-serif;

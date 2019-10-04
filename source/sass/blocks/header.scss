@@ -8,20 +8,20 @@
   color: $purple-header;
   padding-bottom: 62px;
 
-  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_header@2x.png");
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     min-height: 430px;
     padding-bottom: 3px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     background-image: url("../img/yoga_header_mobile@1x.png");
     min-height: 260px;
 
-    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/yoga_header_mobile@2x.png");
     }
   }
@@ -31,12 +31,12 @@
   padding-top: 63px;
   margin-bottom: 92px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     padding-top: 34px;
     margin-bottom: 46px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     padding-top: 17px;
     margin-bottom: 58px;
   }
@@ -45,7 +45,7 @@
 .header__number {
   top: 364px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     top: 191px;
     right: 32px;
   }

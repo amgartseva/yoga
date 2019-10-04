@@ -5,12 +5,12 @@
 }
 
 .menu__burger {
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-left: 11px;
     margin-top: -2px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-left: 0;
     margin-top: 0;
   }
@@ -19,11 +19,11 @@
 .burger__icon {
   width: 24px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 12.8px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 30px;
   }
 }
@@ -34,12 +34,12 @@
   padding-left: 12px;
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
     padding-left: 6px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }

@@ -4,11 +4,11 @@
   background-repeat: no-repeat;
   background-position: 688px 20px;
 
-  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_pattern_screen_1@2x.png");
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     min-height: 500px;
   }
 }
@@ -21,14 +21,14 @@
   margin-left: 467px;
   margin-bottom: 110px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
     margin-top: -273px;
     margin-left: 310px;
     margin-bottom: 60px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
     margin-top: 68px;
     margin-left: 95px;
@@ -40,7 +40,7 @@
   top: 2478px;
   right: 100px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     top: 1590px;
     right: 29px;
   }

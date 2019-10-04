@@ -2,11 +2,11 @@
   max-width: $desktop-width;
   margin: 0 auto;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: $tablet-width;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: $mobile-width;
   }
 }

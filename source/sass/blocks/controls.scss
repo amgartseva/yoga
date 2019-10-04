@@ -3,12 +3,12 @@
   margin-top: -45px;
   margin-left: 244px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-top: -29px;
     margin-left: 150px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     position: relative;
   }
 }
@@ -23,7 +23,7 @@
   margin-right: 19px;
   cursor: pointer;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 29px;
     height: 19px;
     padding-left: 10px;
@@ -31,7 +31,7 @@
     margin-right: 11px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 16px;
     height: 31px;
     position: absolute;
@@ -52,14 +52,14 @@
   padding-top: 5px;
   cursor: pointer;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 29px;
     height: 19px;
     padding-left: 12px;
     padding-top: 0;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 16px;
     height: 31px;
     position: absolute;
@@ -71,11 +71,11 @@
 }
 
 .controls__icon {
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 7px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 4px;
   }
 }
@@ -89,13 +89,13 @@
   margin-right: 9px;
   width: 40px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-top: 0;
     font-size: 10px;
     margin-right: 4px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
@@ -103,7 +103,7 @@
 .controls__active-page {
   font-size: 16px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
   }
 }

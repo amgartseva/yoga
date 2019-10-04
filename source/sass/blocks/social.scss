@@ -3,13 +3,13 @@
   width: 65px;
   justify-content: space-between;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 35px;
     margin-left: 11px;
     margin-top: 10px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
@@ -31,7 +31,7 @@
     margin-left: 3px;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     &--vk {
       width: 7px;
     }

@@ -2,7 +2,7 @@
   font-size: 12px;
   line-height: 20px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 15px;
   }
@@ -11,7 +11,7 @@
 .courses__column .timetable {
   margin-top: 13px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-top: 4px;
   }
 }
@@ -19,13 +19,13 @@
 .timetable__first {
   margin-bottom: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-top: 5px;
   }
 }
 
 .courses__column .timetable__first {
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-top: 0;
   }
 }
@@ -35,11 +35,11 @@
   margin: 0;
   margin-bottom: 17px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-bottom: 0;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-top: 1px;
   }
 }

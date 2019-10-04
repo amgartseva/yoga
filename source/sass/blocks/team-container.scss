@@ -3,11 +3,11 @@
   margin-left: 135px;
   align-items: flex-start;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-left: 93px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: block;
     margin-left: 47px;
   }

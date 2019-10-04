@@ -5,41 +5,41 @@
   background-size: 1257px auto;
   background-position: 150px -62px;
 
-  @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_pattern_screen_2@2x.png");
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     background-size: 693px auto;
     background-position: 5px -20px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     background-image: url("../img/yoga_pattern_screen_2_mobile@1x.png");
     background-size: 216px auto;
     background-position: 0 145px;
 
-    @media (min-resolution: @retina-dpi), (min-resolution: @retina-dppx) {
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/yoga_pattern_screen_2_mobile@2x.png");
     }
   }
 }
 
 .courses__heading {
-  font-family: "Geometria Bold", "Arial", sans-serif;
+  font-family: $main-bold-font;
   color: $purple-dark;
   font-size: 30px;
   line-height: 15px;
   text-align: center;
   padding-bottom: 42px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
     margin-left: 10px;
     padding-bottom: 22px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
     margin-left: 0;
     padding-bottom: 23px;
@@ -50,7 +50,7 @@
   top: 1065px;
   right: 100px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     top: 616px;
     right: 27px;
   }
@@ -62,12 +62,12 @@
   margin-left: 120px;
   margin-right: 155px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-left: 78px;
     margin-right: 67px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: block;
     margin-left: 35px;
     margin-right: 35px;
@@ -83,7 +83,7 @@
     box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-bottom: 28px;
   }
 }
@@ -92,11 +92,11 @@
   margin-bottom: 28px;
   display: block;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-bottom: 20px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-bottom: 28px;
   }
 
@@ -116,7 +116,7 @@
       box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
     }
 
-    @media (max-width: 1023px) {
+    @media (max-width: $tablet-breakpoint) {
       width: 351px;
       padding-top: 7px;
       padding-bottom: 5px;
@@ -126,7 +126,7 @@
       padding-right: 7px;
     }
 
-    @media (max-width: 767px) {
+    @media (max-width: $mobile-breakpoint) {
       display: none;
     }
   }

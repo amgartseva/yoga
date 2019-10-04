@@ -11,12 +11,12 @@
 .header-bottom__address {
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
     padding-right: 2px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }

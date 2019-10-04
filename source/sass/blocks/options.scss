@@ -5,12 +5,12 @@
   width: 931px;
   margin: 0 auto;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 623px;
     margin-left: 78px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: block;
     margin-left: 35px;
   }
@@ -44,7 +44,7 @@
     }
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 176px;
     padding-top: 21px;
     padding-bottom: 28px;
@@ -66,7 +66,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     width: 250px;
     padding-top: 9px;
     padding-bottom: 30px;
@@ -96,11 +96,11 @@
   line-height: 20px;
   color: $purple-dark;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     margin-bottom: 8px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     font-size: 16px;
     margin-bottom: 11px;
   }
@@ -115,7 +115,7 @@
   margin-right: 50px;
   margin-bottom: 27px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 15px;
     margin-left: 20px;
@@ -124,7 +124,7 @@
     margin-bottom: 15px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     margin-left: 55px;
     margin-right: 55px;
     margin-bottom: 12px;
@@ -137,17 +137,17 @@
   color: $purple-dark;
   margin: 0;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
   }
 }
 
 .options__btn {
-  font-family: "Geometria Medium", "Arial", sans-serif;
+  font-family: $main-font;
   color: $white;
   cursor: pointer;
   display: none;
@@ -162,13 +162,13 @@
   height: 52px;
   margin-top: 37px;
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     width: 149px;
     height: 35px;
     font-size: 10px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: block;
     width: 148px;
     height: 34px;

@@ -1,7 +1,7 @@
 .number {
-  font-family: "Geometria Bold", "Arial", sans-serif;
+  font-family: $main-bold-font;
   text-align: right;
-  color: $numbers;
+  color: $numbers-color;
   font-size: 30px;
   line-height: 15px;
   position: absolute;
@@ -14,10 +14,10 @@
     top: 6px;
     width: 93px;
     height: 2px;
-    background-color: $number-line;
+    background-color: $number-line-color;
   }
 
-  @media (max-width: 1023px) {
+  @media (max-width: $tablet-breakpoint) {
     font-size: 18px;
 
     &::after {
@@ -26,7 +26,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: $mobile-breakpoint) {
     display: none;
   }
 }
