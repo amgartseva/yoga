@@ -20,6 +20,12 @@
   cursor: pointer;
   font-size: 12px;
   line-height: 20px;
+  background-color: transparent;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  margin: 0;
+  padding: 0;
 
   &--active {
     border-bottom: 1px solid $pink;

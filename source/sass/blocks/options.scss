@@ -161,6 +161,8 @@
   box-sizing: border-box;
   height: 52px;
   margin-top: 37px;
+  text-decoration: none;
+  padding-top: 15px;
 
   @media (max-width: $tablet-breakpoint) {
     width: 149px;

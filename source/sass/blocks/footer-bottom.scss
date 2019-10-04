@@ -12,7 +12,7 @@
   padding-top: 19px;
   margin-left: 154px;
   margin-right: 122px;
-  padding-bottom: 7px;
+  padding-bottom: 12px;
 
   @media (max-width: $tablet-breakpoint) {
     justify-content: flex-start;
@@ -29,6 +29,11 @@
 }
 
 .footer-bottom__site {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin-top: 12px;
+
   @media (max-width: $tablet-breakpoint) {
     order: 2;
     margin-left: 40px;

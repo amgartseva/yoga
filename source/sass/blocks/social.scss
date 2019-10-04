@@ -2,6 +2,7 @@
   display: flex;
   width: 65px;
   justify-content: space-between;
+  list-style: none;
 
   @media (max-width: $tablet-breakpoint) {
     width: 35px;

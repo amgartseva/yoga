@@ -3,6 +3,11 @@
   width: 57px;
   justify-content: space-between;
   align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-left: -2px;
+  margin-top: -2px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 115px;
@@ -14,7 +19,7 @@
 }
 
 .footer-social__icon--tw {
-  padding-top: 3px;
+  padding-top: 5px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 29px;
@@ -32,6 +37,8 @@
 }
 
 .footer-social__icon--fb {
+  padding-top: 2px;
+
   @media (max-width: $mobile-breakpoint) {
     width: 10px;
     height: 21px;

@@ -65,6 +65,7 @@
   padding-left: 15px;
   padding-top: 8px;
   cursor: pointer;
+  border: none;
 
   @media (max-width: $tablet-breakpoint) {
     width: 29px;
@@ -103,6 +104,7 @@
   padding-top: 8px;
   box-sizing: border-box;
   cursor: pointer;
+  border: none;
 
   @media (max-width: $tablet-breakpoint) {
     width: 29px;
@@ -125,6 +127,8 @@
 }
 
 .review-slider__icon {
+
+
   @media (max-width: $tablet-breakpoint) {
     width: 7px;
   }

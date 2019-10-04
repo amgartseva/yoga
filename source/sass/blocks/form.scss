@@ -12,6 +12,7 @@
   color: $purple-dark;
   width: 411px;
   margin-bottom: 43px;
+  margin-left: 4px;
 
   @media (max-width: $mobile-breakpoint) {
     font-size: 20px;
@@ -21,7 +22,11 @@
   }
 }
 
-.form__input {
+.form__input label {
+  font-size: 0;
+}
+
+.form__input input{
   width: 407px;
   margin: 0;
   font-size: 14px;
@@ -58,6 +63,7 @@
   font-size: 14px;
   line-height: 20px;
   cursor: pointer;
+  margin-left: 3px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 250px;
