@@ -1,24 +1,19 @@
 .slider__pagination {
-  right: 80px;
-  left: auto;
-  bottom: 5px;
-
   width: auto;
   font-size: 16px;
   line-height: 20px;
   color: $purple-dark;
-  text-align: right;
 }
 
 .slider__button {
-  top: auto;
-  bottom: 0;
   width: 45px;
   height: 30px;
   padding: 0;
 
   background-color: $purple-dark;
   border: 1px solid $purple-dark;
+  opacity: 1;
+
   cursor: pointer;
 
   svg {
@@ -37,9 +32,4 @@
       stroke: $purple-dark;
     }
   }
-}
-
-.slider__button--prev {
-  right: 150px;
-  left: auto;
 }

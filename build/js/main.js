@@ -15,54 +15,55 @@
 'use strict';
 
 (function () {
-  // var teamSwiper = document.querySelector('.team-container__slider');
-  // var emptyBlock = document.querySelector('.fill-js');
-  // var teamSlider = document.querySelector('.team-container__slider');
-  // var teamSlides = document.querySelectorAll('.teacher-card');
-  // var cloneDescription = teamSlides[0].querySelector('.teacher-card__description').cloneNode(true);
+  var morningPrice = document.querySelector('.options__price-morning');
+  var eveningPrice = document.querySelector('.options__price-evening');
+  var noLimitPrice = document.querySelector('.options__price-nolimit');
+  var buttonsBlock = document.querySelector('.length');
+  var buttons = document.querySelectorAll('.length__item');
 
-  // if (!teamSlider) {
-  //   return;
-  // }
+  buttonsBlock.addEventListener('click', function (evt) {
+    if (evt.target.classList.contains('length__item')) {
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].classList.remove('length__item--active');
+      }
 
-  // if (!teamSwiper) {
-  //   return;
-  // }
+      evt.target.classList.add('length__item--active');
+      morningPrice.textContent = evt.target.dataset.morning;
+      eveningPrice.textContent = evt.target.dataset.evening;
+      noLimitPrice.textContent = evt.target.dataset.nolimit;
+    }
+  });
+})();
 
-  // if (emptyBlock && cloneDescription) {
-  //   cloneDescription.className = 'team__description-wrapper';
-  //   emptyBlock.appendChild(cloneDescription);
-  // }
+'use strict';
 
-  // teamSlider.addEventListener('click', function (evt) {
-  //   if (evt.target.classList.contains('teacher-card__info-btn')) {
-  //     var description = evt.path[3].querySelector('.teacher-card__description');
-  //     cloneDescription = description.cloneNode(true);
-  //     cloneDescription.className = 'team__description-wrapper';
+(function () {
+  var reviewsSwiper = document.querySelector('.review-slider');
 
-  //     emptyBlock.innerHTML = '';
-  //     emptyBlock.appendChild(cloneDescription);
-  //   }
-  // });
+  if (!reviewsSwiper) {
+    return;
+  }
 
-  // (function () {
-  //   return new window.Swiper(teamSwiper, {
-  //     observeParents: true,
-  //     observer: true,
-  //     slidesPerView: 1,
-  //     slidesPerColumn: 3,
-  //     spaceBetween: 20,
-  //     breakpointsInverse: true,
-  //     pagination: {
-  //       el: '.swiper-pagination',
-  //       type: 'fraction',
-  //     },
-  //     navigation: {
-  //       nextEl: '.swiper-button-next',
-  //       prevEl: '.swiper-button-prev',
-  //     },
-  //   });
-  // })();
+  (function () {
+    return new window.Swiper(reviewsSwiper, {
+      observeParents: true,
+      observer: true,
+      slidesPerView: 2,
+      slidesPerGroup: 2,
+      spaceBetween: 20,
+      breakpointsInverse: true,
+      loop: true,
+      autoHeight: true,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  })();
 })();
 
 'use strict';

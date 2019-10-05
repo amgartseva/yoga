@@ -20,8 +20,8 @@
   <div style="display: none;">
     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><symbol id="arrow_left_purple" viewbox="0 0 10 15">
 <path d="M9 1L1 7.5L9 14"></path>
-</symbol><symbol id="arrow_right_white" viewbox="0 0 11 19">
-<path d="M1 1L10 9.5L1 18"></path>
+</symbol><symbol id="arrow_right_white" viewbox="0 0 10 15">
+<path d="M1 1L9 7.5L1 14"></path>
 </symbol><symbol id="burger" viewbox="0 0 30 13">
 <path d="M0 0.5H30M0 6.49948H30M0 12.5003H19.5" stroke="#8E80A9"></path>
 </symbol><symbol id="Facebook" viewbox="0 0 6 11">
@@ -181,27 +181,36 @@
         <h2 class="subscribtion__heading">Абонементы</h2>
         <p class="subscribtion__number number">03</p>
         <div class="subscribtion__length length">
-          <button class="length__item length__item--active" type="button" name="one-month">1 месяц</button>
-          <button class="length__item" type="button" name="six-months">6 месяцев</button>
-          <button class="length__item" type="button" name="twelve-months">12 месяцев</button>
+          <button class="length__item length__item--active" type="button" name="one-month" data-morning="1 300" data-evening="2 000" data-nolimit="2 800">1 месяц</button>
+          <button class="length__item" type="button" name="six-months" data-morning="5 300" data-evening="6 000" data-nolimit="6 800">6 месяцев</button>
+          <button class="length__item" type="button" name="twelve-months" data-morning="10 300" data-evening="11 000" data-nolimit="12 800">12 месяцев</button>
         </div>
         <div class="subscribtion__options options">
           <div class="options__item">
             <h3 class="options__heading">Утро</h3>
             <p class="options__info">Посещение <br> с 11:00 до 16:00</p>
-            <p class="options__price">1 300 Р</p>
+            <p class="options__price">
+              <span class="options__price-morning">1 300</span>
+              Р
+            </p>
             <a class="options__btn" href="#">Заказать абонемент</a>
           </div>
           <div class="options__item">
             <h3 class="options__heading">Безлимит</h3>
             <p class="options__info">Посещение не ограничено по времени</p>
-            <p class="options__price">2 800 Р</p>
+            <p class="options__price">
+              <span class="options__price-nolimit">2 800</span>
+              Р
+            </p>
             <a class="options__btn" href="#">Заказать абонемент</a>
           </div>
           <div class="options__item">
             <h3 class="options__heading">Вечер</h3>
             <p class="options__info">Посещение <br> с 17:00 до 21:00</p>
-            <p class="options__price">2 000 Р</p>
+            <p class="options__price">
+              <span class="options__price-evening">2 000</span>
+              P
+            </p>
             <a class="options__btn" href="#">Заказать абонемент</a>
           </div>
         </div>
@@ -492,16 +501,16 @@
                   </div>
                 </div>
               </div>
-              <div class="slider__pagination swiper-pagination"></div>
-              <button class="slider__button slider__button--prev swiper-button-prev" type="button">
+              <div class="team-container__slider-pagination slider__pagination swiper-pagination"></div>
+              <button class="team-container__slider-button team-container__slider-button--prev slider__button slider__button--prev swiper-button-prev" type="button">
                 <span class="visually-hidden">Предыдущий слайд</span>
                 <svg class="slider__button-icon" width="10" height="15" fill="none">
                   <use xlink:href="#arrow_left_purple"></use>
                 </svg>
               </button>
-              <button class="slider__button slider__button--next swiper-button-next" type="button">
+              <button class="team-container__slider-button team-container__slider-button--next slider__button slider__button--next swiper-button-next" type="button">
                 <span class="visually-hidden">Следующий слайд</span>
-                <svg class="slider__button-icon" width="8" height="19" fill="none">
+                <svg class="slider__button-icon" width="10" height="15" fill="none">
                   <use xlink:href="#arrow_right_white"></use>
                 </svg>
               </button>
@@ -592,7 +601,6 @@
                 <use xlink:href="#quotation-marks"></use>
               </svg>
               <blockquote class="review__text">
-                <p>Тестовый</p>
                 <p>Хожу на&nbsp;йогу вечером, чтобы расслабиться после тяжелого трудового дня. И&nbsp;после занятий наступает спокойствие!</p>
                 <p>Йога это отличный способ быстро и&nbsp;качественно расслабиться. Спасибо инструктору Марине.</p>
               </blockquote>
@@ -603,7 +611,7 @@
                   </picture>
                 </div>
                 <div class="user-info__contacts">
-                  <p class="user-info__name">Серёжа Попов</p>
+                  <p class="user-info__name">Тестовый</p>
                   <time class="user-info__date" datetime="2018-05-16 15:30">16 мая 2018</time>
                   <ul class="user-info__social user-social">
                     <li class="user-social__item">
@@ -629,7 +637,6 @@
                 <use xlink:href="#quotation-marks"></use>
               </svg>
               <blockquote class="review__text">
-                <p>Тестовый</p>
                 <p>Хожу на&nbsp;йогу вечером, чтобы расслабиться после тяжелого трудового дня. И&nbsp;после занятий наступает спокойствие!</p>
                 <p>Йога это отличный способ быстро и&nbsp;качественно расслабиться. Спасибо инструктору Марине.</p>
               </blockquote>
@@ -640,7 +647,7 @@
                   </picture>
                 </div>
                 <div class="user-info__contacts">
-                  <p class="user-info__name">Серёжа Попов</p>
+                  <p class="user-info__name">Тестовый</p>
                   <time class="user-info__date" datetime="2018-05-16 15:30">24 июня 2019</time>
                   <ul class="user-info__social user-social">
                     <li class="user-social__item">
@@ -662,16 +669,16 @@
               </div>
             </div>
           </div>
-          <div class="slider__pagination swiper-pagination"></div>
-          <button class="slider__button slider__button--prev swiper-button-prev" type="button">
+          <div class="review-slider__pagination slider__pagination swiper-pagination"></div>
+          <button class="review-slider__button review-slider__button--prev slider__button slider__button--prev swiper-button-prev" type="button">
             <span class="visually-hidden">Предыдущий слайд</span>
             <svg class="slider__button-icon" width="10" height="15" fill="none">
               <use xlink:href="#arrow_left_purple"></use>
             </svg>
           </button>
-          <button class="slider__button slider__button--next swiper-button-next" type="button">
+          <button class="review-slider__button review-slider__button--next slider__button slider__button--next swiper-button-next" type="button">
             <span class="visually-hidden">Следующий слайд</span>
-            <svg class="slider__button-icon" width="8" height="19" fill="none">
+            <svg class="slider__button-icon" width="10" height="15" fill="none">
               <use xlink:href="#arrow_right_white"></use>
             </svg>
           </button>

@@ -9,28 +9,18 @@ html {
 }
 
 body {
-  font-family: $main-font;
+  position: relative;
+
+  min-width: 320px;
   margin: 0;
   padding: 0;
+
+  font-family: $main-font;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+
   background-color: $primary-color;
-  overflow-x: hidden;
-  background-image: url("../img/yoga_pattern_screen_4@1x.png");
-  background-repeat: no-repeat;
-  background-position: left 2130px;
-
-  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
-    background-image: url("../img/yoga_pattern_screen_4@2x.png");
-  }
-
-  @media (max-width: $tablet-breakpoint) {
-    background-position: -55px 1365px;
-    background-size: 590px auto;
-  }
-
-  @media (max-width: $mobile-breakpoint) {
-    background-position: 0 2215px;
-    background-size: 270px auto;
-  }
 }
 
 img {
