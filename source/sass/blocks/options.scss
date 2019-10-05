@@ -1,8 +1,8 @@
 .options {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  width: 931px;
+  flex-wrap: wrap;
+  width: 90%;
   margin: 0 auto;
 
   @media (max-width: $tablet-breakpoint) {
@@ -21,26 +21,21 @@
   box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
   text-align: center;
   box-sizing: border-box;
-  width: 263px;
+  width: 25%;
   padding-top: 39px;
   padding-bottom: 54px;
+  margin-right: 2.48%;
+  margin-left: 2.48%;
 
   &:hover {
-    width: 331px;
+    width: 30%;
     padding-bottom: 58px;
+    margin-right: 0;
+    margin-left: 0;
     transition: all 0.5s linear;
-
-    & .options__info {
-      margin-left: 80px;
-      margin-right: 80px;
-      margin-bottom: 30px;
-    }
 
     & .options__btn {
       display: block;
-      box-sizing: border-box;
-      height: 52px;
-      margin-top: 37px;
     }
   }
 
@@ -107,13 +102,17 @@
 }
 
 .options__info {
+  margin: 0;
+  width: 163px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 27px;
+
   font-size: 12px;
   line-height: 20px;
   text-align: center;
   color: $pink;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 27px;
+
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
@@ -158,11 +157,12 @@
   line-height: 20px;
   margin: 0 auto;
   width: 223px;
-  box-sizing: border-box;
-  height: 52px;
   margin-top: 37px;
   text-decoration: none;
   padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
 
   @media (max-width: $tablet-breakpoint) {
     width: 149px;

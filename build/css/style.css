@@ -1,3 +1,15 @@
+html {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+
+*,
+*::after,
+*::before {
+  -webkit-box-sizing: inherit;
+     -moz-box-sizing: inherit;
+          box-sizing: inherit; }
+
 body {
   font-family: "Geometria Medium", "Arial", sans-serif;
   margin: 0;
@@ -806,11 +818,9 @@ img {
      -moz-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  -webkit-box-pack: justify;
-     -moz-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 931px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
   margin: 0 auto; }
   @media (max-width: 1023px) {
     .options {
@@ -829,25 +839,20 @@ img {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
-  width: 263px;
+  width: 25%;
   padding-top: 39px;
-  padding-bottom: 54px; }
+  padding-bottom: 54px;
+  margin-right: 2.48%;
+  margin-left: 2.48%; }
   .options__item:hover {
-    width: 331px;
+    width: 30%;
     padding-bottom: 58px;
+    margin-right: 0;
+    margin-left: 0;
     -webkit-transition: all 0.5s linear;
     transition: all 0.5s linear; }
-    .options__item:hover .options__info {
-      margin-left: 80px;
-      margin-right: 80px;
-      margin-bottom: 30px; }
     .options__item:hover .options__btn {
-      display: block;
-      -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-              box-sizing: border-box;
-      height: 52px;
-      margin-top: 37px; }
+      display: block; }
   @media (max-width: 1023px) {
     .options__item {
       width: 176px;
@@ -895,13 +900,15 @@ img {
       margin-bottom: 11px; } }
 
 .options__info {
+  margin: 0;
+  width: 163px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 27px;
   font-size: 12px;
   line-height: 20px;
   text-align: center;
-  color: #e65c7b;
-  margin-left: 50px;
-  margin-right: 50px;
-  margin-bottom: 27px; }
+  color: #e65c7b; }
   @media (max-width: 1023px) {
     .options__info {
       font-size: 10px;
@@ -940,13 +947,12 @@ img {
   line-height: 20px;
   margin: 0 auto;
   width: 223px;
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-  height: 52px;
   margin-top: 37px;
   text-decoration: none;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px; }
   @media (max-width: 1023px) {
     .options__btn {
       width: 149px;
