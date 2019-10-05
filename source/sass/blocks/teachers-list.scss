@@ -1,7 +1,7 @@
 .teachers-list {
-  width: 400px;
-  margin-top: 13px;
-  margin-right: 66px;
+  width: 100%;
+  margin-right: auto;
+  box-sizing: border-box;
 
   @media (max-width: $tablet-breakpoint) {
     margin-right: 17px;
@@ -17,7 +17,6 @@
 }
 
 .teachers-list__item {
-  display: none;
 
   &--active {
     display: block;
