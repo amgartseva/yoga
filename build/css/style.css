@@ -693,15 +693,16 @@ img {
   font-size: 30px;
   line-height: 15px;
   position: absolute;
-  right: 105px; }
+  right: 0;
+  padding-right: 67px; }
   .number::after {
     content: "";
     position: absolute;
     left: 44px;
     top: 6px;
-    width: 93px;
+    width: 63px;
     height: 2px;
-    background-color: rgba(139, 126, 172, 0.73); }
+    background-color: rgba(139, 126, 172, 0.5); }
   @media (max-width: 1023px) {
     .number {
       font-size: 18px; }
@@ -713,14 +714,13 @@ img {
       display: none; } }
 
 .header {
+  position: relative;
+  margin: 0;
+  color: #8b7eac;
   background-image: url("../img/yoga_header@1x.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  margin: 0;
-  min-height: 100vh;
-  color: #8b7eac;
-  padding-bottom: 62px; }
+  background-size: 100% 100%; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: (1, 5dppx)) {
     .header {
       background-image: url("../img/yoga_header@2x.png"); } }
@@ -736,9 +736,12 @@ img {
     .header {
       background-image: url("../img/yoga_header_mobile@2x.png"); } }
 
-.header__top {
+.header-container {
   padding-top: 63px;
-  margin-bottom: 92px; }
+  padding-bottom: 200px; }
+
+.header__top {
+  margin-bottom: 110px; }
   @media (max-width: 1023px) {
     .header__top {
       padding-top: 34px;
@@ -749,7 +752,7 @@ img {
       margin-bottom: 58px; } }
 
 .header__number {
-  top: 364px; }
+  top: 40.5%; }
   @media (max-width: 1023px) {
     .header__number {
       top: 191px;
@@ -778,11 +781,14 @@ img {
       font-size: 12px;
       padding-top: 2px; } }
 
+.header-middle {
+  margin-bottom: 119px; }
+
 .header-middle__intro {
   font-family: "Caveat", "Arial", sans-serif;
   font-size: 45px;
   margin-left: 160px;
-  margin-bottom: 135px;
+  margin-bottom: 151px;
   padding: 0; }
   @media (max-width: 1023px) {
     .header-middle__intro {
@@ -818,8 +824,7 @@ img {
       margin-bottom: 40px; } }
 
 .header-middle__link {
-  margin: 0 auto;
-  margin-bottom: 128px; }
+  margin: 0 auto; }
   @media (max-width: 1023px) {
     .header-middle__link {
       margin-bottom: 55px; } }
@@ -839,10 +844,14 @@ img {
           align-items: flex-start; }
 
 .header-bottom__social {
-  margin: 0; }
+  margin: 0;
+  margin-left: -5px; }
 
 .header-bottom__address {
-  margin: 0; }
+  font-size: 16px;
+  line-height: 16px;
+  margin: 0;
+  margin-top: 9px; }
   @media (max-width: 1023px) {
     .header-bottom__address {
       font-size: 12px;
@@ -918,6 +927,8 @@ img {
   padding-bottom: 10px;
   padding-left: 26px;
   padding-right: 20px; }
+  .link__button svg {
+    stroke: #ffffff; }
   @media (max-width: 1023px) {
     .link__button {
       margin-right: 9px;
@@ -954,10 +965,8 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 65px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  max-width: 165px;
+  padding: 0;
   list-style: none; }
   @media (max-width: 1023px) {
     .social {
@@ -969,17 +978,18 @@ img {
       display: none; } }
 
 .social__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 0;
-  width: 15px;
-  height: 15px;
-  display: block; }
-
-.social__icon--tw {
-  margin-top: -1px; }
-
-.social__icon--fb {
-  margin-top: -1px;
-  margin-left: 3px; }
+  width: 25px;
+  height: 25px; }
 
 @media (max-width: 1023px) {
   .social__icon--vk {
@@ -994,11 +1004,15 @@ img {
     margin-left: 5px; } }
 
 .courses {
-  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  margin-top: -72px;
+  margin-bottom: 23px;
+  padding-bottom: 80px;
   background-image: url("../img/yoga_pattern_screen_2@1x.png");
   background-repeat: no-repeat;
   background-size: 1257px auto;
-  background-position: 150px -62px; }
+  background-position: 59% -62px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: (1, 5dppx)) {
     .courses {
       background-image: url("../img/yoga_pattern_screen_2@2x.png"); } }
@@ -1021,7 +1035,9 @@ img {
   font-size: 30px;
   line-height: 15px;
   text-align: center;
-  padding-bottom: 42px; }
+  padding-bottom: 42px;
+  margin: 0;
+  margin-bottom: 24px; }
   @media (max-width: 1023px) {
     .courses__heading {
       font-size: 21px;
@@ -1034,8 +1050,8 @@ img {
       padding-bottom: 23px; } }
 
 .courses__number {
-  top: 1065px;
-  right: 100px; }
+  top: 42.5%;
+  padding-right: 60px; }
   @media (max-width: 1023px) {
     .courses__number {
       top: 616px;
@@ -1200,6 +1216,8 @@ img {
           box-sizing: border-box;
   padding-left: 27px;
   padding-top: 80px; }
+  .course-info__button svg {
+    stroke: #ffffff; }
   @media (max-width: 1023px) {
     .course-info__button {
       width: 43px;
@@ -1298,12 +1316,15 @@ img {
       margin-bottom: 0; } }
 
 .subscribtion {
-  min-height: 600px;
+  position: relative;
+  min-height: 800px;
+  padding-top: 57px;
+  padding-bottom: 57px;
   text-align: center;
   background-image: url("../img/yoga_clouds@1x.png");
-  background-position: 0 -70px;
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-position: center 0;
+  background-repeat: repeat;
+  background-size: 100% 100%; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: (1, 5dppx)) {
     .subscribtion {
       background-image: url("../img/yoga_clouds@2x.png"); } }
@@ -1315,8 +1336,7 @@ img {
       min-height: 700px; } }
 
 .subscribtion__number {
-  top: 1762px;
-  right: 100px; }
+  top: 33%; }
   @media (max-width: 1023px) {
     .subscribtion__number {
       top: 1111px;

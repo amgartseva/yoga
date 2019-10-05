@@ -5,16 +5,17 @@
   font-size: 30px;
   line-height: 15px;
   position: absolute;
-  right: 105px;
+  right: 0;
+  padding-right: 67px;
 
   &::after {
     content: "";
     position: absolute;
     left: 44px;
     top: 6px;
-    width: 93px;
+    width: 63px;
     height: 2px;
-    background-color: $number-line-color;
+    background-color: rgba($number-line-color, 0.5);
   }
 
   @media (max-width: $tablet-breakpoint) {

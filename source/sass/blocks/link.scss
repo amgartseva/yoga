@@ -24,6 +24,10 @@
   padding-left: 26px;
   padding-right: 20px;
 
+  svg {
+    stroke: $white;
+  }
+
   @media (max-width: $tablet-breakpoint) {
     margin-right: 9px;
     padding-top: 3px;
