@@ -3,7 +3,7 @@
   text-align: right;
   color: $numbers-color;
   font-size: 30px;
-  line-height: 15px;
+  line-height: 30px;
   position: absolute;
   right: 0;
   padding-right: 67px;
@@ -11,15 +11,17 @@
   &::after {
     content: "";
     position: absolute;
-    left: 44px;
-    top: 6px;
-    width: 63px;
+    right: 0;
+    top: 8px;
+    width: 55px;
     height: 2px;
     background-color: rgba($number-line-color, 0.5);
   }
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 18px;
+    line-height: 18px;
+    padding-right: 33px;
 
     &::after {
       width: 19px;

@@ -6,9 +6,8 @@
   list-style: none;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 35px;
-    margin-left: 11px;
-    margin-top: 10px;
+    margin-left: 8px;
+    margin-top: 17px;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -23,6 +22,11 @@
   font-size: 0;
   width: 25px;
   height: 25px;
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 12px;
+    height: 12px;
+  }
 }
 
 .social__icon {

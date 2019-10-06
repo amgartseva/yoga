@@ -2,10 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+
+  @media (max-width: $mobile-breakpoint) {
+    align-items: center;
+  }
 }
 
 .header-top__phone {
   font-size: 16px;
+  line-height: 16px;
   padding: 0;
   padding-top: 5px;
   margin: 0;
@@ -14,6 +19,7 @@
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
+    line-height: 12px;
     padding-top: 2px;
   }
 }

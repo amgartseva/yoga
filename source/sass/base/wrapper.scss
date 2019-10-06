@@ -1,12 +1,4 @@
 .wrapper {
   max-width: $desktop-width;
   margin: 0 auto;
-
-  @media (max-width: $tablet-breakpoint) {
-    width: $tablet-width;
-  }
-
-  @media (max-width: $mobile-breakpoint) {
-    width: $mobile-width;
-  }
 }
