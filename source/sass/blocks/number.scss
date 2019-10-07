@@ -1,4 +1,5 @@
 .number {
+  margin: 0;
   font-family: $main-bold-font;
   text-align: right;
   color: $numbers-color;
@@ -12,7 +13,7 @@
     content: "";
     position: absolute;
     right: 0;
-    top: 8px;
+    top: 13px;
     width: 55px;
     height: 2px;
     background-color: rgba($number-line-color, 0.5);
@@ -26,6 +27,7 @@
     &::after {
       width: 19px;
       left: 33px;
+      top: 8px
     }
   }
 

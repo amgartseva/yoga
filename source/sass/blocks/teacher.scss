@@ -2,28 +2,14 @@
   font-size: 12px;
   line-height: 15px;
   color: $pink;
+  padding-right: 30px;
+
+  p {
+    margin: 0;
+  }
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
-  }
-}
-
-.teacher__position {
-  margin-bottom: 0;
-
-  @media (max-width: $tablet-breakpoint) {
-    margin-top: 8px;
-  }
-
-  @media (max-width: $mobile-breakpoint) {
-    margin-top: 5px;
-  }
-}
-
-.teacher__name {
-  margin-top: 0;
-
-  @media (max-width: $tablet-breakpoint) {
-    margin-bottom: 0;
+    padding-right: 30px;
   }
 }

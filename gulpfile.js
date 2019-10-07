@@ -6,6 +6,7 @@ var sourcemap = require('gulp-sourcemaps');
 var sass = require('gulp-sass');
 var postcss = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
+var objectfit = require('postcss-object-fit-images');
 var server = require('browser-sync').create();
 var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
@@ -38,7 +39,7 @@ gulp.task('css', function () {
       .pipe(plumber())
       .pipe(sourcemap.init())
       .pipe(sass())
-      .pipe(postcss([autoprefixer()]))
+      .pipe(postcss([autoprefixer(), objectfit()]))
       .pipe(gulp.dest('build/css'))
       .pipe(cleanCSS())
       .pipe(rename('style.min.css'))
