@@ -5,7 +5,6 @@
   var emptyBlock = document.querySelector('.fill-js');
   var teamSlider = document.querySelector('.team-container__slider');
   var teamSlides = document.querySelectorAll('.teacher-card');
-  var cloneDescription = teamSlides[0].querySelector('.teacher-card__description').cloneNode(true);
 
   if (!teamSlider) {
     return;
@@ -16,6 +15,7 @@
   }
 
   if (emptyBlock && cloneDescription) {
+    var cloneDescription = teamSlides[0].querySelector('.teacher-card__description').cloneNode(true);
     cloneDescription.className = 'team__description-wrapper';
     emptyBlock.appendChild(cloneDescription);
   }

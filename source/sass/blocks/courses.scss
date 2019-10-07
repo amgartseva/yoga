@@ -2,7 +2,6 @@
   position: relative;
   z-index: 1;
   margin-top: -80px;
-  margin-bottom: 23px;
   padding-bottom: 80px;
   background-image: url("../img/yoga_pattern_screen_2@1x.png");
   background-repeat: no-repeat;
@@ -22,6 +21,7 @@
 
   @media (max-width: $mobile-breakpoint) {
     margin-top: -42px;
+    padding-bottom: 20px;
 
     background-image: url("../img/yoga_pattern_screen_2_mobile@1x.png");
     background-size: 216px auto;
@@ -84,6 +84,7 @@
   @media (max-width: $mobile-breakpoint) {
     display: block;
     width: 100%;
+    max-width: 500px;
     padding-left: 35px;
     padding-right: 35px;
   }
@@ -125,7 +126,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   &--more {

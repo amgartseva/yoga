@@ -1,12 +1,12 @@
 .subscribtion {
   position: relative;
-  min-height: 800px;
-  padding-top: 57px;
+  min-height: 700px;
+  padding-top: 66px;
   padding-bottom: 57px;
   text-align: center;
   background-image: url("../img/yoga_clouds@1x.png");
-  background-position: center 0;
-  background-repeat: repeat;
+  background-position: center 15px;
+  background-repeat: no-repeat;
   background-size: 100% 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -14,11 +14,32 @@
   }
 
   @media (max-width: $tablet-breakpoint) {
-    background-position: 0 -100px;
+    min-height: 420px;
+    padding-top: 37px;
+    background-size: 100% auto;
+    background-position: center 22px;
+
   }
 
   @media (max-width: $mobile-breakpoint) {
-    min-height: 700px;
+    padding-top: 13px;
+    padding-bottom: 20px;
+
+    background-image: url("../img/yoga_clouds_mobile@1x.png");
+    background-position: center 90px;
+    background-size: 100% 86%;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/yoga_clouds_mobile@2x.png");
+    }
+  }
+}
+
+.subscribtion__wrapper {
+  @media (max-width: $mobile-breakpoint) {
+    max-width: 555px;
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
@@ -26,42 +47,41 @@
   top: 33%;
 
   @media (max-width: $tablet-breakpoint) {
-    top: 1111px;
-    right: 30px;
+
   }
 }
 
 .subscribtion__heading {
   font-size: 30px;
-  line-height: 15px;
+  line-height: 30px;
   color: $purple-dark;
   margin: 0;
-  margin-top: -8px;
-  margin-bottom: 54px;
+  margin-bottom: 46px;
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
-    margin-top: -213px;
+    line-height: 21px;
+
     margin-left: 8px;
-    margin-bottom: 7px;
+    margin-bottom: 15px;
   }
 
   @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
-    margin-top: 65px;
     margin-left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 
 .subscribtion__length {
-  padding-bottom: 50px;
+  margin: 0 auto;
+  margin-bottom: 50px;
 
   @media (max-width: $tablet-breakpoint) {
-    padding-bottom: 26px;
+    margin-bottom: 39px;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    padding-bottom: 15px;
+    margin-bottom: 26px;
   }
 }
