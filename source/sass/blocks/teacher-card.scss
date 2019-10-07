@@ -1,14 +1,10 @@
 .teacher-card {
-  background-color: $white;
-  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
   position: relative;
-  width: 399px;
-  box-sizing: border-box;
-  padding-left: 141px;
-  padding-top: 18px;
-  padding-right: 25px;
-  padding-bottom: 17px;
-  margin-bottom: 90px;
+  display: flex;
+  width: 100%;
+  padding-top: 48px;
+
+  height: calc((100% - 40px) / 3);
 
   @media (max-width: $tablet-breakpoint) {
     width: 255px;
@@ -25,6 +21,30 @@
     padding-top: 16px;
     padding-bottom: 14px;
   }
+}
+
+.teacher-card__wrapper {
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 150px;
+  padding-right: 15px;
+  padding-top: 25px;
+  padding-bottom: 17px;
+
+  background-color: $white;
+  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
+}
+
+.teacher-card__container-left {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.teacher-card__teacher-info {
+  margin-bottom: auto;
 }
 
 .teacher-card__teacher-position {
@@ -62,10 +82,19 @@
   }
 }
 
+.teacher-card__container-right {
+  display: flex;
+  flex-direction: column;
+}
+
 .teacher-card__photo {
   position: absolute;
-  left: -23px;
-  top: -55px;
+  left: 0;
+  top: 0;
+  width: 40%;
+  height: 144px;
+
+  overflow: hidden;
 
   @media (max-width: $tablet-breakpoint) {
     left: -15px;
@@ -115,17 +144,31 @@
   }
 }
 
-.teacher-card__container-top {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 9px;
 
-  @media (max-width: $tablet-breakpoint) {
-    margin-bottom: 4px;
-  }
+.teacher-card__description {
+  display: none;
 }
 
-.teacher-card__container-bottom {
-  display: flex;
-  justify-content: space-between;
+.teacher-card__description-name {
+  font-size: 18px;
+  line-height: 20px;
+  color: $purple-dark;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.teacher-card__description-experience {
+  font-size: 14px;
+  line-height: 20px;
+  color: $pink;
+  margin: 0;
+  margin-bottom: 24px;
+}
+
+.teacher-card__description-info p {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 12px;
+  line-height: 20px;
+  color: $purple-dark;
 }

@@ -1,10 +1,13 @@
 .subscribtion {
-  min-height: 100vh;
+  position: relative;
+  min-height: 800px;
+  padding-top: 57px;
+  padding-bottom: 57px;
   text-align: center;
   background-image: url("../img/yoga_clouds@1x.png");
-  background-position: 0 -70px;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center 0;
+  background-repeat: repeat;
+  background-size: 100% 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_clouds@2x.png");
@@ -20,8 +23,7 @@
 }
 
 .subscribtion__number {
-  top: 1762px;
-  right: 100px;
+  top: 33%;
 
   @media (max-width: $tablet-breakpoint) {
     top: 1111px;

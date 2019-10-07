@@ -1,6 +1,5 @@
 .user-social {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   width: 40px;
   list-style: none;
@@ -11,6 +10,7 @@
 .user-social__link {
   color: inherit;
   text-decoration: none;
+  padding: 5px;
 }
 
 .user-social__icon--tw {

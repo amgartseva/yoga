@@ -1,28 +1,33 @@
 .number {
+  margin: 0;
   font-family: $main-bold-font;
   text-align: right;
   color: $numbers-color;
   font-size: 30px;
-  line-height: 15px;
+  line-height: 30px;
   position: absolute;
-  right: 105px;
+  right: 0;
+  padding-right: 67px;
 
   &::after {
     content: "";
     position: absolute;
-    left: 44px;
-    top: 6px;
-    width: 93px;
+    right: 0;
+    top: 13px;
+    width: 55px;
     height: 2px;
-    background-color: $number-line-color;
+    background-color: rgba($number-line-color, 0.5);
   }
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 18px;
+    line-height: 18px;
+    padding-right: 33px;
 
     &::after {
       width: 19px;
       left: 33px;
+      top: 8px
     }
   }
 

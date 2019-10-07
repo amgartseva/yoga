@@ -1,20 +1,28 @@
 .courses {
-  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  margin-top: -80px;
+  margin-bottom: 23px;
+  padding-bottom: 80px;
   background-image: url("../img/yoga_pattern_screen_2@1x.png");
   background-repeat: no-repeat;
   background-size: 1257px auto;
-  background-position: 150px -62px;
+  background-position: 59% -56px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_pattern_screen_2@2x.png");
   }
 
   @media (max-width: $tablet-breakpoint) {
+    margin-top: -35px;
+
     background-size: 693px auto;
     background-position: 5px -20px;
   }
 
   @media (max-width: $mobile-breakpoint) {
+    margin-top: -42px;
+
     background-image: url("../img/yoga_pattern_screen_2_mobile@1x.png");
     background-size: 216px auto;
     background-position: 0 145px;
@@ -29,48 +37,69 @@
   font-family: $main-bold-font;
   color: $purple-dark;
   font-size: 30px;
-  line-height: 15px;
+  line-height: 30px;
   text-align: center;
-  padding-bottom: 42px;
+  margin: 0;
+  margin-bottom: 58px;
+  padding-left: 30px;
+  padding-right: 30px;
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
-    margin-left: 10px;
-    padding-bottom: 22px;
+    line-height: 21px;
+
+    margin-bottom: 37px;
   }
 
   @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
-    margin-left: 0;
-    padding-bottom: 23px;
+    line-height: 18px;
+    margin-bottom: 36px;
   }
 }
 
 .courses__number {
-  top: 1065px;
-  right: 100px;
+  top: 36.9%;
+  padding-right: 60px;
 
   @media (max-width: $tablet-breakpoint) {
-    top: 616px;
-    right: 27px;
+    padding-right: 30px;
   }
 }
 
 .courses__wrapper {
   display: flex;
-  justify-content: space-between;
-  margin-left: 120px;
-  margin-right: 155px;
+  align-items: stretch;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 35px;
 
   @media (max-width: $tablet-breakpoint) {
-    margin-left: 78px;
-    margin-right: 67px;
+    width: 82%;
+    padding-right: 0;
+    padding-left: 8px;
   }
 
   @media (max-width: $mobile-breakpoint) {
     display: block;
-    margin-left: 35px;
-    margin-right: 35px;
+    width: 100%;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}
+
+.courses__column {
+  display: flex;
+  flex-direction: column;
+  width: 56.8%;
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 56.5%;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 100%;
   }
 }
 
@@ -78,52 +107,45 @@
   color: $purple-dark;
   text-decoration: none;
   display: block;
-
-  &:hover {
-    box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
-  }
+  line-height: 0;
 
   @media (max-width: $mobile-breakpoint) {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 }
 
 .courses__column .courses__link {
+  width: 100%;
   margin-bottom: 28px;
   display: block;
+  line-height: 0;
 
   @media (max-width: $tablet-breakpoint) {
     margin-bottom: 20px;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-bottom: 28px;
+    margin-bottom: 30px;
   }
 
   &--more {
     background-color: $white;
     box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
-    width: 521px;
+    width: 100%;
     text-align: center;
     font-size: 12px;
     line-height: 20px;
     padding-top: 14px;
     padding-bottom: 14px;
-    margin-top: 56px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin-bottom: 0;
-
-    &:hover {
-      box-shadow: 0 4px 25px rgba(142, 128, 169, 1);
-    }
+    margin-top: auto;
 
     @media (max-width: $tablet-breakpoint) {
-      width: 351px;
-      padding-top: 7px;
-      padding-bottom: 5px;
-      margin-top: 39px;
+      padding-top: 6px;
+      padding-bottom: 6px;
       font-size: 10px;
-      box-sizing: border-box;
-      padding-right: 7px;
     }
 
     @media (max-width: $mobile-breakpoint) {

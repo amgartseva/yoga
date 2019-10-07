@@ -7,16 +7,17 @@
 .menu__burger {
   @media (max-width: $tablet-breakpoint) {
     margin-left: 11px;
-    margin-top: -2px;
+    margin-top: -5px;
   }
 
   @media (max-width: $mobile-breakpoint) {
+    width: 30px;
     margin-left: 0;
     margin-top: 0;
   }
 }
 
-.burger__icon {
+.menu__burger-icon {
   width: 24px;
 
   @media (max-width: $tablet-breakpoint) {
@@ -24,18 +25,29 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+   display: none;
+  }
+}
+
+.menu__burger-icon-mobile {
+  display: none;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: block;
     width: 30px;
   }
 }
 
 .menu__heading {
   font-size: 16px;
+  line-height: 16px;
   position: relative;
   padding-left: 12px;
   margin: 0;
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
+    line-height: 12px;
     padding-left: 6px;
   }
 

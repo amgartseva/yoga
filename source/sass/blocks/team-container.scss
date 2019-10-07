@@ -1,7 +1,7 @@
 .team-container {
   display: flex;
-  margin-left: 135px;
   align-items: flex-start;
+  width: 40%;
 
   @media (max-width: $tablet-breakpoint) {
     margin-left: 93px;
@@ -10,5 +10,29 @@
   @media (max-width: $mobile-breakpoint) {
     display: block;
     margin-left: 47px;
+  }
+}
+
+.team-container__slider-pagination {
+  right: 80px;
+  left: auto;
+  bottom: 5px;
+
+  text-align: right;
+}
+
+.team-container__slider {
+  width: 100%;
+  height: 623px;
+  padding-bottom: 100px;
+}
+
+.team-container__slider-button {
+  top: auto;
+  bottom: 0;
+
+  &--prev {
+    right: 150px;
+    left: auto;
   }
 }

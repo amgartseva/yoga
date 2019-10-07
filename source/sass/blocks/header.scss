@@ -1,20 +1,20 @@
 .header {
+  position: relative;
+  margin: 0;
+
+  color: $purple-header;
+
   background-image: url("../img/yoga_header@1x.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  margin: 0;
-  min-height: 100vh;
-  color: $purple-header;
-  padding-bottom: 62px;
+  background-size: 100% 100%;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_header@2x.png");
   }
 
   @media (max-width: $tablet-breakpoint) {
-    min-height: 430px;
-    padding-bottom: 3px;
+
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -27,26 +27,37 @@
   }
 }
 
-.header__top {
-  padding-top: 63px;
-  margin-bottom: 92px;
+.header-container {
+  padding-top: 64px;
+  padding-bottom: 200px;
 
   @media (max-width: $tablet-breakpoint) {
-    padding-top: 34px;
-    margin-bottom: 46px;
+    padding-top: 37px;
+    padding-bottom: 110px;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    padding-top: 17px;
-    margin-bottom: 58px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+  }
+}
+
+.header__top {
+  margin-bottom: 94px;
+
+  @media (max-width: $tablet-breakpoint) {
+    margin-bottom: 42px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 61px;
   }
 }
 
 .header__number {
-  top: 364px;
+  top: 39.8%;
 
   @media (max-width: $tablet-breakpoint) {
-    top: 191px;
-    right: 32px;
+    top: 39.5%;
   }
 }

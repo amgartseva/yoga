@@ -1,11 +1,17 @@
 .review {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
   background-color: $white;
-  box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
-  box-sizing: border-box;
   width: 442px;
   padding-left: 87px;
   padding-top: 33px;
   padding-bottom: 26px;
+
+  &.swiper-slide-active,
+  &.swiper-slide-next {
+    box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
+  }
 
   @media (max-width: $tablet-breakpoint) {
     margin-bottom: 18px;

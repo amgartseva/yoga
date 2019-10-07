@@ -1,0 +1,35 @@
+.slider__pagination {
+  width: auto;
+  font-size: 16px;
+  line-height: 20px;
+  color: $purple-dark;
+}
+
+.slider__button {
+  width: 45px;
+  height: 30px;
+  padding: 0;
+
+  background-color: $purple-dark;
+  border: 1px solid $purple-dark;
+  opacity: 1;
+
+  cursor: pointer;
+
+  svg {
+    stroke: $white;
+  }
+
+  &::after {
+    display: none;
+  }
+
+  &.swiper-button-disabled {
+    opacity: 1;
+    background-color: transparent;
+
+    svg {
+      stroke: $purple-dark;
+    }
+  }
+}
