@@ -84,6 +84,7 @@
   @media (max-width: $mobile-breakpoint) {
     display: block;
     width: 100%;
+    max-width: 500px;
     padding-left: 35px;
     padding-right: 35px;
   }
@@ -125,7 +126,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-bottom: 30px;
+    margin-bottom: 32px;
   }
 
   &--more {
