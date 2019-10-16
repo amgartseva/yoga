@@ -1,7 +1,7 @@
 .team-container {
   display: flex;
   align-items: flex-start;
-  width: 50%;
+  width: 45%;
 
   @media (max-width: $mobile-breakpoint) {
     display: block;

@@ -37,7 +37,7 @@
       observer: true,
       slidesPerView: 1,
       slidesPerColumn: 3,
-      spaceBetween: 20,
+      spaceBetween: 30,
       breakpointsInverse: true,
       pagination: {
         el: '.swiper-pagination',

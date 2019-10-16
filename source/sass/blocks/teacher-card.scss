@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   width: 100%;
-  padding-top: 48px;
+  padding-top: 55px;
 
   height: calc((100% - 40px) / 3);
 
@@ -23,12 +23,12 @@
 
 .teacher-card__wrapper {
   display: flex;
-  width: 90%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 150px;
-  padding-right: 15px;
-  padding-top: 25px;
+  padding-left: 147px;
+  padding-right: 24px;
+  padding-top: 20px;
   padding-bottom: 17px;
 
   background-color: $white;
@@ -83,6 +83,7 @@
   line-height: 20px;
   color: $purple-dark;
   margin: 0;
+  margin-top: 9px;
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
