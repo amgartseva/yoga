@@ -16,7 +16,6 @@
       spaceBetween: 20,
       breakpointsInverse: true,
       loop: true,
-      autoHeight: true,
       pagination: {
         el: '.swiper-pagination',
         type: 'fraction',

@@ -1,5 +1,6 @@
 .review-slider {
   max-width: 905px;
+  width: 100%;
   position: relative;
   margin: 0 auto;
   padding-right: 20px;
@@ -8,7 +9,7 @@
   padding-bottom: 20px;
 
   @media (max-width: $tablet-breakpoint) {
-    margin-left: 169px;
+    width: 57%;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -25,7 +26,6 @@
 
   @media (max-width: $tablet-breakpoint) {
     width: 442px;
-    flex-wrap: wrap;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -132,8 +132,6 @@
 }
 
 .review-slider__icon {
-
-
   @media (max-width: $tablet-breakpoint) {
     width: 7px;
   }

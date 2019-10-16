@@ -1,6 +1,4 @@
 .reviews {
-  min-height: 100vh;
-
   @media (max-width: $mobile-breakpoint) {
     min-height: 370px;
   }
@@ -11,14 +9,13 @@
   line-height: 15px;
   color: $purple-dark;
   margin-top: 108px;
-  margin-left: 540px;
   margin-bottom: 64px;
+
+  text-align: center;
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 21px;
     line-height: 15px;
-    margin-top: -130px;
-    margin-left: 350px;
     margin-bottom: 40px;
   }
 

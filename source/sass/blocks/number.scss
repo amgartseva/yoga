@@ -15,8 +15,8 @@
     right: 0;
     top: 13px;
     width: 55px;
-    height: 2px;
-    background-color: rgba($number-line-color, 0.5);
+    height: 1px;
+    background-color: $number-line-color;
   }
 
   @media (max-width: $tablet-breakpoint) {

@@ -67,7 +67,6 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
       spaceBetween: 20,
       breakpointsInverse: true,
       loop: true,
-      autoHeight: true,
       pagination: {
         el: '.swiper-pagination',
         type: 'fraction',

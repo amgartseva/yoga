@@ -15,11 +15,15 @@
   }
 }
 
+.course-info--column {
+  display: block;
+}
+
 .courses__column .course-info {
   padding-top: 32px;
   padding-right: 6.7%;
   padding-left: 6.7%;
-  padding-bottom: 20px;
+  padding-bottom: 34px;
 
   @media (max-width: $tablet-breakpoint) {
     min-width: 204px;
@@ -42,6 +46,7 @@
   padding-top: 41px;
   padding-bottom: 27px;
   padding-right: 30px;
+  width: 85%;
 
   @media (max-width: $tablet-breakpoint) {
     display: flex;
@@ -62,7 +67,7 @@
 
 .courses__column .course-info__wrapper {
   padding: 0;
-  margin-right: 20px;
+  width: 100%;
 
   @media (max-width: $tablet-breakpoint) {
     display: flex;
@@ -76,7 +81,12 @@
     padding-bottom: 13px;
     padding-right: 20px;
   }
+}
 
+.course-info__bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .course-info__heading {
@@ -114,8 +124,6 @@
 .courses__column .course-info__button {
   width: 45px;
   height: 30px;
-  margin-top: auto;
-  margin-bottom: 17px;
 
   svg {
     height: 13px;

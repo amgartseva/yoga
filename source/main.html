@@ -121,22 +121,24 @@
                     <img src="img/yoga_photo_2@1x.jpg" srcset="img/yoga_photo_2@2x.jpg 2x" width="220" height="180" alt="Ашатанга-йога">
                   </picture>
                 </div>
-                <div class="course-card__info course-info">
+                <div class="course-card__info course-info course-info--column">
                   <div class="course-info__wrapper">
                     <h3 class="course-info__heading">Ашатанга-йога</h3>
                     <div class="course-info__timetable timetable">
                       <p class="timetable__first">Пн, Ср, Пт &mdash; с 12:00 до 15:00</p>
                       <p class="timetable__second">Вт, Чт &mdash; с 18:00 до 21:00</p>
                     </div>
+                  </div>
+                  <div class="course-info__bottom">
                     <div class="course-info__teacher teacher">
                       <p class="teacher__position">Инструктор</p>
                       <p class="teacher__name">Емельянова Полина</p>
                     </div>
-                  </div>
-                  <div class="course-info__button" aria-label="Смотреть подробную информацию">
-                    <svg class="course-info__icon" width="11" height="19" fill="none">
-                      <use xlink:href="#arrow_right_white"></use>
-                    </svg>
+                    <div class="course-info__button" aria-label="Смотреть подробную информацию">
+                      <svg class="course-info__icon" width="11" height="19" fill="none">
+                        <use xlink:href="#arrow_right_white"></use>
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -149,22 +151,24 @@
                     <img src="img/yoga_photo_3@1x.jpg" srcset="img/yoga_photo_3@2x.jpg 2x" width="220" height="180" alt="Кундалини-йога">
                   </picture>
                 </div>
-                <div class="course-card__info course-info">
+                <div class="course-card__info course-info course-info--column">
                   <div class="course-info__wrapper">
                     <h3 class="course-info__heading">Кундалини-йога</h3>
                     <div class="course-info__timetable timetable">
                       <p class="timetable__first">Пн, Ср, Пт &mdash; с 12:00 до 15:00</p>
                       <p class="timetable__second">Вт, Чт &mdash; с 18:00 до 21:00</p>
                     </div>
+                  </div>
+                  <div class="course-info__bottom">
                     <div class="course-info__teacher teacher">
                       <p class="teacher__position">Инструктор</p>
                       <p class="teacher__name">Емельянова Полина</p>
                     </div>
-                  </div>
-                  <div class="course-info__button" aria-label="Смотреть подробную информацию">
-                    <svg class="course-info__icon" width="11" height="19" fill="none">
-                      <use xlink:href="#arrow_right_white"></use>
-                    </svg>
+                    <div class="course-info__button" aria-label="Смотреть подробную информацию">
+                      <svg class="course-info__icon" width="11" height="19" fill="none">
+                        <use xlink:href="#arrow_right_white"></use>
+                      </svg>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -214,8 +218,8 @@
         </div>
       </div>
     </section>
-    <!-- <div class="wrapper">
-      <section class="team">
+    <section class="team">
+      <div class="wrapper">
         <h2 class="team__heading">Наша команда</h2>
         <p class="team__number number">04</p>
         <div class="team__wrapper">
@@ -498,26 +502,998 @@
                     </div>
                   </div>
                 </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Хатха-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Хатха-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Флоу-йога</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description" id="description-1">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Флоу-йога Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="teachers-list__item teacher-card swiper-slide">
+                  <div class="teacher-card__photo">
+                    <picture>
+                      <img src="img/yoga_photo_4@1x.jpg" srcset="img/yoga_photo_4@2x.jpg 2x" width="143" height="144" alt="Инструктор Серёжа Попов">
+                    </picture>
+                  </div>
+                  <div class="teacher-card__wrapper">
+                    <div class="teacher-card__container-left">
+                      <div class="teacher-card__teacher-info">
+                        <p class="teacher-card__teacher-position">Тест</p>
+                        <p class="teacher-card__teacher-name">Серёжа Попов</p>
+                      </div>
+                      <p class="teacher-card__course">Йога в гамаках</p>
+                    </div>
+                    <div class="teacher-card__container-right">
+                      <ul class="teacher-card__social teacher-social">
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Вконтакте">
+                            <svg class="teacher-social__icon teacher-social__icon--vk" width="13" height="8" fill="none">
+                              <use xlink:href="#VK"></use>
+                            </svg>
+                          </a>
+                        </li>
+                        <li class="teacher-social__item">
+                          <a class="teacher-social__link" href="#" aria-label="Twitter">
+                            <svg class="teacher-social__icon teacher-social__icon--tw" width="16" height="11" fill="none">
+                              <use xlink:href="#Twitter"></use>
+                            </svg>
+                          </a>
+                        </li>
+                      </ul>
+                      <button class="teacher-card__info-btn" type="button" name="teacher-more" data-id="description-1">Смотреть</button>
+                    </div>
+                  </div>
+                  <div class="teacher-card__description">
+                    <h3 class="teacher-card__description-name">Серёжа Попов Йога в гамаках Тест</h3>
+                    <p class="teacher-card__description-experience">Опыт преподавания: 8 лет</p>
+                    <div class="teacher-card__description-info">
+                      <p><span>Образование и опыт работы: </span>Практикует с 2011 года, является сертифицированным инструктором по флоу- йоге. Большой опыт преподавания йоги для начинающих и продолжающих. </p>
+                      <p>Обучалась в Индии (International Association of Yoga: classical yoga, master of principles yoga therapy), Непале (опыт медитативных и дыхательных техник, проживание в Ашраме), Москва (Аштанга йога центр 108 А. Константинова),
+                        Московский центр классической йоги Виктора Бойко. </p>
+                      <p>Сертифицированный инструктор по фитнесу и йоге (БГУФК), по массажу (Оздоровительный Витал – центр №401).</p>
+                      <p>Организатор и участник многочисленных конвенций и семинаров по йоге, медитативным техникам и здоровому питанию.</p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div class="team-container__slider-pagination slider__pagination swiper-pagination"></div>
-              <button class="team-container__slider-button team-container__slider-button--prev slider__button slider__button--prev swiper-button-prev" type="button">
-                <span class="visually-hidden">Предыдущий слайд</span>
-                <svg class="slider__button-icon" width="10" height="15" fill="none">
-                  <use xlink:href="#arrow_left_purple"></use>
-                </svg>
-              </button>
-              <button class="team-container__slider-button team-container__slider-button--next slider__button slider__button--next swiper-button-next" type="button">
-                <span class="visually-hidden">Следующий слайд</span>
-                <svg class="slider__button-icon" width="10" height="15" fill="none">
-                  <use xlink:href="#arrow_right_white"></use>
-                </svg>
-              </button>
+              <div class="team-container__slider-button-wrapper">
+                <div class="team-container__slider-pagination slider__pagination swiper-pagination"></div>
+                <button class="team-container__slider-button team-container__slider-button--prev slider__button slider__button--prev swiper-button-prev" type="button">
+                  <span class="visually-hidden">Предыдущий слайд</span>
+                  <svg class="slider__button-icon" width="10" height="15" fill="none">
+                    <use xlink:href="#arrow_left_purple"></use>
+                  </svg>
+                </button>
+                <button class="team-container__slider-button team-container__slider-button--next slider__button slider__button--next swiper-button-next" type="button">
+                  <span class="visually-hidden">Следующий слайд</span>
+                  <svg class="slider__button-icon" width="10" height="15" fill="none">
+                    <use xlink:href="#arrow_right_white"></use>
+                  </svg>
+                </button>
+              </div>
+
             </div>
           </div>
           <div class="team__description fill-js"></div>
         </div>
-      </section>
-      <section class="reviews">
+      </div>
+
+    </section>
+    <section class="reviews">
+      <div class="wrapper">
         <h2 class="reviews__heading">Отзывы</h2>
         <p class="reviews__number number">05</p>
         <div class="reviews__container review-slider slider swiper-container">
@@ -681,8 +1657,9 @@
             </svg>
           </button>
         </div>
-      </section>
-    </div>
+      </div>
+
+    </section>
   </main>
   <footer class="footer" id="footer">
     <div class="footer__top footer-top">
@@ -756,7 +1733,7 @@
         </div>
       </div>
     </div>
-  </footer> -->
+  </footer>
   <script src="js/main.min.js"></script>
 </body>
 

@@ -1,16 +1,24 @@
 .team-container {
   display: flex;
   align-items: flex-start;
-  width: 40%;
-
-  @media (max-width: $tablet-breakpoint) {
-    margin-left: 93px;
-  }
+  width: 50%;
 
   @media (max-width: $mobile-breakpoint) {
     display: block;
     margin-left: 47px;
   }
+}
+
+.team-container__slider-button-wrapper {
+  width: 156px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 61px;
+  margin-left: auto;
+  margin-right: 25px;
 }
 
 .team-container__slider-pagination {
@@ -23,16 +31,14 @@
 
 .team-container__slider {
   width: 100%;
-  height: 623px;
-  padding-bottom: 100px;
 }
 
 .team-container__slider-button {
-  top: auto;
-  bottom: 0;
+  position: static;
+  display: block;
+  margin-top: auto;
 
   &--prev {
-    right: 150px;
-    left: auto;
+    order: 0;
   }
 }
