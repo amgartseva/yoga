@@ -40,8 +40,14 @@
   padding-bottom: 6px;
   margin-bottom: 45px;
 
+  outline: none;
+
   &::placeholder {
     color: $purple-light;
+  }
+
+  &:focus {
+    outline: 1px solid $purple-light;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -57,6 +63,7 @@
   color: $white;
   box-sizing: border-box;
   border: none;
+  border-radius: 0;
   background-color: $pink;
   margin-top: 13px;
   padding-top: 17px;
@@ -65,6 +72,13 @@
   line-height: 20px;
   cursor: pointer;
   margin-left: 3px;
+
+  outline: none;
+
+  &:focus,
+  &:hover {
+    background-color: $pink-light;
+  }
 
   @media (max-width: $mobile-breakpoint) {
     width: 250px;
