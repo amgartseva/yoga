@@ -1,5 +1,5 @@
 .review-slider {
-  max-width: 905px;
+  max-width: 950px;
   width: 100%;
   position: relative;
   margin: 0 auto;
@@ -145,8 +145,12 @@
   display: none;
 }
 
+.review-slider__button {
+  top: 52%;
+}
+
 .review-slider__button--prev {
-  left: 0;
+  left: 5px;
 }
 
 .review-slider__button--next {

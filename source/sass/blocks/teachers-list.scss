@@ -3,6 +3,10 @@
   margin-right: auto;
   box-sizing: border-box;
 
+  display: flex;
+  flex-direction: column;
+  height: 583px;
+
   @media (max-width: $tablet-breakpoint) {
     margin-top: 56px;
     margin-right: 17px;
@@ -19,6 +23,7 @@
 
 .teachers-list__item {
   margin-top: 20px;
+  margin-bottom: 13px;
 
   &--active {
     display: block;

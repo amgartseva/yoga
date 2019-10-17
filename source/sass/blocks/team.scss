@@ -2,7 +2,7 @@
   position: relative;
   background-image: url("../img/yoga_pattern_screen_1@1x.png");
   background-repeat: no-repeat;
-  background-position: 688px 20px;
+  background-position: right -150% top 20px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_pattern_screen_1@2x.png");
@@ -33,7 +33,7 @@
 }
 
 .team__number {
-  top: 0;
+  top: 48%;
   right: 0;
 
   @media (max-width: $tablet-breakpoint) {
@@ -54,11 +54,11 @@
 }
 
 .team__description {
-  width: 50%;
-  padding-top: 100px;
+  width: 52%;
+  padding-top: 75px;
   padding-bottom: 50px;
-  padding-right: 50px;
   padding-left: 50px;
+  padding-right: 50px;
 
   @media (max-width: $tablet-breakpoint) {
     padding-top: 75px;

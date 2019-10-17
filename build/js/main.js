@@ -285,7 +285,7 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
       observer: true,
       slidesPerView: 1,
       slidesPerColumn: 3,
-      spaceBetween: 30,
+      spaceBetween: 20,
       breakpointsInverse: true,
       pagination: {
         el: '.swiper-pagination',

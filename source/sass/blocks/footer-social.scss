@@ -1,7 +1,6 @@
 .footer-social {
   display: flex;
-  width: 57px;
-  justify-content: space-between;
+  width: 100px;
   align-items: flex-start;
   list-style: none;
   margin: 0;
@@ -14,12 +13,21 @@
   }
 }
 
+.footer-social__item {
+  width: 17px;
+  height: 17px;
+}
+
 .footer-social__link {
   display: block;
 }
 
+.footer-social__icon {
+  margin-top: auto;
+}
+
 .footer-social__icon--tw {
-  padding-top: 5px;
+  margin-top: 5px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 29px;

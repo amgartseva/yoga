@@ -9,6 +9,7 @@
 .form__header {
   font-size: 30px;
   line-height: 40px;
+  font-weight: 700;
   color: $purple-dark;
   width: 411px;
   margin-bottom: 43px;
@@ -26,7 +27,7 @@
   font-size: 0;
 }
 
-.form__input input{
+.form__input input {
   width: 407px;
   margin: 0;
   font-size: 14px;
