@@ -9,8 +9,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    width: 78%;
-    margin-left: 31px;
+    width: 100%;
   }
 }
 
@@ -53,10 +52,20 @@
     right: 60px;
     bottom: -2px;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }
 
 .team-container__slider {
   width: 100%;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 90%;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 .team-container__slider-button {

@@ -31,37 +31,31 @@
     }
   });
 
-  /*(function () {
-    return new window.Swiper(teamSwiper, {
-      observeParents: true,
-      observer: true,
-      slidesPerView: 1,
-      slidesPerColumn: 3,
-      spaceBetween: 20,
-      breakpointsInverse: true,
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'fraction',
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  })();*/
-
   (function () {
     return new window.Swiper(teamSwiper, {
       observeParents: true,
       observer: true,
       slidesPerView: 1,
-      breakpointsInverse: true,
+      slidesPerColumn: 1,
       spaceBetween: 20,
+      breakpointsInverse: true,
 
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
+
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+
+      breakpoints: {
+        768: {
+          slidesPerColumn: 3,
+        }
+      }
     });
   })();
+
 })();

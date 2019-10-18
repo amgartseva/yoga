@@ -1794,6 +1794,11 @@ img {
       padding-bottom: 0;
       padding-right: 0;
       padding-left: 0; } }
+  @media (max-width: 767px) {
+    .team__description {
+      width: auto;
+      margin-left: 0;
+      padding-top: 0; } }
 
 .team-container {
   display: -webkit-box;
@@ -1809,8 +1814,7 @@ img {
       width: 46%; } }
   @media (max-width: 767px) {
     .team-container {
-      width: 78%;
-      margin-left: 31px; } }
+      width: 100%; } }
 
 .team-container__slider-button-wrapper {
   width: 156px;
@@ -1933,7 +1937,7 @@ img {
   @media (max-width: 767px) {
     .teachers-list {
       margin-right: 0;
-      width: 250px;
+      width: auto;
       height: 100%;
       margin-top: 0;
       padding-top: 0;
@@ -1973,7 +1977,7 @@ img {
       height: calc((100% - 118px) / 3); } }
   @media (max-width: 767px) {
     .teacher-card {
-      width: 100%;
+      width: 90%;
       padding-left: 0;
       padding-top: 0;
       padding-bottom: 0;
