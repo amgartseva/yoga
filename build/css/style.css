@@ -3002,7 +3002,7 @@ img {
   @media (max-width: 767px) {
     .form {
       padding-left: 35px;
-      padding-right: 35px; } }
+      padding-right: 11px; } }
 
 .form__header {
   font-size: 30px;
