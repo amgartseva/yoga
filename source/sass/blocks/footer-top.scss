@@ -1,12 +1,18 @@
 .footer-top__container {
   display: flex;
   align-items: flex-start;
-  margin-left: 155px;
+  justify-content: space-between;
+  margin-left: auto;
   padding-top: 38px;
   padding-bottom: 69px;
 
+  margin-right: auto;
+  width: 100%;
+  max-width: 961px;
+
+
   @media (max-width: $tablet-breakpoint) {
-    margin-left: 182px;
+    max-width: 415px;
   }
 
   @media (max-width: $mobile-breakpoint) {

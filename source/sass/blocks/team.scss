@@ -1,11 +1,35 @@
 .team {
   position: relative;
+
   background-image: url("../img/yoga_pattern_screen_1@1x.png");
   background-repeat: no-repeat;
-  background-position: right -150% top 20px;
+  background-position: right 56px top 31px;
+  background-size: 576px 514px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/yoga_pattern_screen_1@2x.png");
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1326px;
+    width: 618px;
+    background-image: url("../img/yoga_pattern_screen_4@1x.png");
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    background-size: 618px auto;
+    top: -40px;
+    left: 0;
+
+    @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+      background-image: url("../img/yoga_pattern_screen_4@2x.png");
+    }
+
+    @media (max-width: $tablet-breakpoint) {
+      height: 665px;
+      background-size: auto 665px;
+    }
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -24,6 +48,8 @@
   text-align: center;
 
   @media (max-width: $tablet-breakpoint) {
+    margin-right: 0;
+    margin-bottom: 30px;
     font-size: 21px;
   }
 
@@ -35,11 +61,6 @@
 .team__number {
   top: 48%;
   right: 0;
-
-  @media (max-width: $tablet-breakpoint) {
-    top: 1590px;
-    right: 29px;
-  }
 }
 
 .team__wrapper {
@@ -49,7 +70,8 @@
   margin: 0 auto;
 
   @media (max-width: $tablet-breakpoint) {
-    padding: 0 67px;
+    padding: 0 78px;
+    padding-right: 64px;
   }
 }
 
@@ -61,7 +83,8 @@
   padding-right: 50px;
 
   @media (max-width: $tablet-breakpoint) {
-    padding-top: 75px;
+    margin-left: 26px;
+    padding-top: 35px;
     padding-bottom: 0;
     padding-right: 0;
     padding-left: 0;

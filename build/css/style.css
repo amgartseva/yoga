@@ -575,9 +575,6 @@ button.swiper-pagination-bullet {
   /* Windows 8 IE 10 fix */
   -ms-perspective: 1200px; }
 
-.swiper-pagination-total {
-  font-size: 12px; }
-
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
@@ -676,7 +673,6 @@ img {
       padding-right: 33px; }
       .number::after {
         width: 19px;
-        left: 33px;
         top: 8px; } }
   @media (max-width: 767px) {
     .number {
@@ -1236,7 +1232,7 @@ img {
   @media (max-width: 1023px) {
     .courses__column .course-card__image {
       min-width: 148px;
-      width: 100%; } }
+      width: 43%; } }
   @media (max-width: 767px) {
     .courses__column .course-card__image {
       width: 100%; } }
@@ -1264,7 +1260,7 @@ img {
   @media (max-width: 1023px) {
     .courses__column .course-info {
       min-width: 204px;
-      width: 90%;
+      width: 57%;
       padding-top: 20px;
       padding-left: 20px;
       padding-right: 20px;
@@ -1339,7 +1335,7 @@ img {
     .course-info__heading {
       font-size: 12px;
       line-height: 15px;
-      margin-bottom: 5px; } }
+      margin-bottom: 3px; } }
 
 .course-info__button {
   display: -webkit-box;
@@ -1394,7 +1390,7 @@ img {
     .timetable {
       font-size: 10px;
       line-height: 15px;
-      margin-bottom: auto; } }
+      margin-bottom: 7px; } }
 
 .teacher {
   font-size: 12px;
@@ -1405,8 +1401,7 @@ img {
     margin: 0; }
   @media (max-width: 1023px) {
     .teacher {
-      font-size: 10px;
-      padding-right: 30px; } }
+      font-size: 10px; } }
 
 .subscribtion {
   position: relative;
@@ -1423,7 +1418,7 @@ img {
       background-image: url("../img/yoga_clouds@2x.png"); } }
   @media (max-width: 1023px) {
     .subscribtion {
-      min-height: 420px;
+      min-height: 476px;
       padding-top: 37px;
       background-size: 100% auto;
       background-position: center 22px; } }
@@ -1446,6 +1441,9 @@ img {
 
 .subscribtion__number {
   top: 33%; }
+  @media (max-width: 1023px) {
+    .subscribtion__number {
+      top: 44%; } }
 
 .subscribtion__heading {
   font-size: 30px;
@@ -1684,10 +1682,29 @@ img {
   position: relative;
   background-image: url("../img/yoga_pattern_screen_1@1x.png");
   background-repeat: no-repeat;
-  background-position: right -150% top 20px; }
+  background-position: right 56px top 31px;
+  background-size: 576px 514px; }
   @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: (1, 5dppx)) {
     .team {
       background-image: url("../img/yoga_pattern_screen_1@2x.png"); } }
+  .team::before {
+    content: "";
+    position: absolute;
+    height: 1326px;
+    width: 618px;
+    background-image: url("../img/yoga_pattern_screen_4@1x.png");
+    background-repeat: no-repeat;
+    background-position: 0 20px;
+    background-size: 618px auto;
+    top: -40px;
+    left: 0; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), (min-resolution: (1, 5dppx)) {
+      .team::before {
+        background-image: url("../img/yoga_pattern_screen_4@2x.png"); } }
+    @media (max-width: 1023px) {
+      .team::before {
+        height: 665px;
+        background-size: auto 665px; } }
   @media (max-width: 767px) {
     .team {
       min-height: 500px; } }
@@ -1702,6 +1719,8 @@ img {
   text-align: center; }
   @media (max-width: 1023px) {
     .team__heading {
+      margin-right: 0;
+      margin-bottom: 30px;
       font-size: 21px; } }
   @media (max-width: 767px) {
     .team__heading {
@@ -1710,10 +1729,6 @@ img {
 .team__number {
   top: 48%;
   right: 0; }
-  @media (max-width: 1023px) {
-    .team__number {
-      top: 1590px;
-      right: 29px; } }
 
 .team__wrapper {
   display: -webkit-box;
@@ -1724,7 +1739,8 @@ img {
   margin: 0 auto; }
   @media (max-width: 1023px) {
     .team__wrapper {
-      padding: 0 67px; } }
+      padding: 0 78px;
+      padding-right: 64px; } }
 
 .team__description {
   width: 52%;
@@ -1734,7 +1750,8 @@ img {
   padding-right: 50px; }
   @media (max-width: 1023px) {
     .team__description {
-      padding-top: 75px;
+      margin-left: 26px;
+      padding-top: 35px;
       padding-bottom: 0;
       padding-right: 0;
       padding-left: 0; } }
@@ -1747,10 +1764,10 @@ img {
       -ms-flex-align: start;
           align-items: flex-start;
   width: 45%; }
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     .team-container {
       display: block;
-      margin-left: 47px; } }
+      width: 46%; } }
 
 .team-container__slider-button-wrapper {
   width: 156px;
@@ -1768,12 +1785,21 @@ img {
   margin-top: 31px;
   margin-left: auto;
   margin-right: 17px; }
+  @media (max-width: 1023px) {
+    .team-container__slider-button-wrapper {
+      width: 106px;
+      margin-top: 0;
+      margin-right: 18px; } }
 
 .team-container__slider-pagination {
   right: 80px;
   left: auto;
   bottom: 5px;
   text-align: right; }
+  @media (max-width: 1023px) {
+    .team-container__slider-pagination {
+      right: 60px;
+      bottom: -2px; } }
 
 .team-container__slider {
   width: 100%; }
@@ -1792,6 +1818,15 @@ img {
   font-size: 16px;
   line-height: 20px;
   color: #8e80a9; }
+  @media (max-width: 1023px) {
+    .slider__pagination {
+      font-size: 12px; } }
+
+.slider__pagination .swiper-pagination-total {
+  font-size: 12px; }
+  @media (max-width: 1023px) {
+    .slider__pagination .swiper-pagination-total {
+      font-size: 10px; } }
 
 .slider__button {
   width: 45px;
@@ -1810,6 +1845,12 @@ img {
     background-color: transparent; }
     .slider__button.swiper-button-disabled svg {
       stroke: #8e80a9; }
+  @media (max-width: 1023px) {
+    .slider__button {
+      width: 29px;
+      height: 19px; }
+      .slider__button svg {
+        height: 9px; } }
 
 .teachers-list {
   width: 100%;
@@ -1826,9 +1867,10 @@ img {
   height: 583px; }
   @media (max-width: 1023px) {
     .teachers-list {
-      margin-top: 56px;
+      margin-top: 16px;
       margin-right: 17px;
-      width: 280px; } }
+      width: 280px;
+      height: 364px; } }
   @media (max-width: 767px) {
     .teachers-list {
       margin-right: 0;
@@ -1843,7 +1885,8 @@ img {
     display: block; }
   @media (max-width: 1023px) {
     .teachers-list__item {
-      margin-bottom: 36px; } }
+      margin-top: 10px;
+      margin-bottom: 22px; } }
 
 .teacher-card {
   position: relative;
@@ -1857,8 +1900,9 @@ img {
     .teacher-card {
       width: 255px;
       padding-top: 10px;
-      padding-right: 12px;
-      padding-bottom: 3px; } }
+      padding-right: 6px;
+      padding-bottom: 3px;
+      height: calc((100% - 118px) / 3); } }
   @media (max-width: 767px) {
     .teacher-card {
       width: 228px;
@@ -1882,12 +1926,12 @@ img {
           box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2); }
   @media (max-width: 1023px) {
     .teacher-card__wrapper {
+      width: 90%;
       margin-left: 15px;
       padding-left: 84px;
       padding-right: 11px;
       padding-top: 11px;
-      padding-bottom: 11px;
-      width: 75%; } }
+      padding-bottom: 11px; } }
 
 .teacher-card__container-left {
   display: -webkit-box;
@@ -1930,6 +1974,7 @@ img {
   margin-top: 9px; }
   @media (max-width: 1023px) {
     .teacher-card__course {
+      margin-top: 4px;
       font-size: 10px; } }
 
 .teacher-card__container-right {
@@ -1951,7 +1996,7 @@ img {
   @media (max-width: 1023px) {
     .teacher-card__photo {
       width: 90px;
-      top: -35px; } }
+      top: -23px; } }
   @media (max-width: 767px) {
     .teacher-card__photo {
       top: 0;
@@ -1984,7 +2029,7 @@ img {
         background-color: #8e80a9;
         width: 48px;
         height: 1px;
-        top: 22px; } }
+        top: 17px; } }
   @media (max-width: 767px) {
     .teacher-card__info-btn {
       display: none; } }
@@ -1998,6 +2043,10 @@ img {
   color: #8e80a9;
   margin: 0;
   margin-bottom: 10px; }
+  @media (max-width: 1023px) {
+    .teacher-card__description-name {
+      font-size: 16px;
+      margin-bottom: 0; } }
 
 .teacher-card__description-experience {
   font-size: 14px;
@@ -2005,6 +2054,10 @@ img {
   color: #e65c7b;
   margin: 0;
   margin-bottom: 24px; }
+  @media (max-width: 1023px) {
+    .teacher-card__description-experience {
+      font-size: 12px;
+      margin-bottom: 7px; } }
 
 .teacher-card__description-info p {
   margin: 0;
@@ -2012,6 +2065,11 @@ img {
   font-size: 12px;
   line-height: 20px;
   color: #8e80a9; }
+  @media (max-width: 1023px) {
+    .teacher-card__description-info p {
+      margin-bottom: 15px;
+      font-size: 10px;
+      line-height: 15px; } }
 
 .teacher-social {
   width: auto;
@@ -2031,9 +2089,9 @@ img {
   margin-bottom: auto; }
   @media (max-width: 1023px) {
     .teacher-social {
-      width: 25px;
-      margin-right: 11px;
-      margin-top: -3px; } }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .teacher-social__link {
   color: inherit;
@@ -2041,6 +2099,10 @@ img {
   display: block;
   padding-right: 0;
   padding-left: 10px; }
+  @media (max-width: 1023px) {
+    .teacher-social__link {
+      padding-left: 3px;
+      padding-right: 3px; } }
 
 @media (max-width: 1023px) {
   .teacher-social__icon--vk {
@@ -2236,7 +2298,8 @@ img {
     .reviews__heading {
       font-size: 21px;
       line-height: 15px;
-      margin-bottom: 40px; } }
+      margin-bottom: 18px;
+      margin-top: 136px; } }
   @media (max-width: 767px) {
     .reviews__heading {
       font-size: 18px;
@@ -2337,9 +2400,6 @@ img {
           align-items: stretch;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  @media (max-width: 1023px) {
-    .review-slider__items {
-      width: 442px; } }
   @media (max-width: 767px) {
     .review-slider__items {
       width: 400px;
@@ -2535,7 +2595,7 @@ img {
   color: #8e80a9;
   width: 400px;
   padding-top: 133px;
-  margin-right: 108px; }
+  margin-left: 35px; }
   @media (max-width: 1023px) {
     .footer-info {
       margin-right: 0;
@@ -2720,12 +2780,18 @@ img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin-left: 155px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: auto;
   padding-top: 38px;
-  padding-bottom: 69px; }
+  padding-bottom: 69px;
+  margin-right: auto;
+  width: 100%;
+  max-width: 961px; }
   @media (max-width: 1023px) {
     .footer-top__container {
-      margin-left: 182px; } }
+      max-width: 415px; } }
   @media (max-width: 767px) {
     .footer-top__container {
       padding-top: 42px;

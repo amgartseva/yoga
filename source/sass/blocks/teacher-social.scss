@@ -10,9 +10,7 @@
   margin-bottom: auto;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 25px;
-    margin-right: 11px;
-    margin-top: -3px;
+    justify-content: center;
   }
 }
 
@@ -22,6 +20,11 @@
   display: block;
   padding-right: 0;
   padding-left: 10px;
+
+  @media (max-width: $tablet-breakpoint) {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
 }
 
 .teacher-social__icon--vk {
