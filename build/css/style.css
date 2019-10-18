@@ -1973,7 +1973,7 @@ img {
       height: calc((100% - 118px) / 3); } }
   @media (max-width: 767px) {
     .teacher-card {
-      width: 228px;
+      width: 100%;
       padding-left: 0;
       padding-top: 0;
       padding-bottom: 0;
@@ -2127,7 +2127,8 @@ img {
   @media (max-width: 767px) {
     .teacher-card__description {
       display: block;
-      width: 100%; } }
+      width: 100%;
+      margin-top: 18px; } }
 
 .teacher-card__description-name {
   font-size: 18px;
@@ -2139,6 +2140,9 @@ img {
     .teacher-card__description-name {
       font-size: 16px;
       margin-bottom: 0; } }
+  @media (max-width: 767px) {
+    .teacher-card__description-name {
+      display: none; } }
 
 .teacher-card__description-experience {
   font-size: 14px;
@@ -2150,6 +2154,9 @@ img {
     .teacher-card__description-experience {
       font-size: 12px;
       margin-bottom: 7px; } }
+  @media (max-width: 767px) {
+    .teacher-card__description-experience {
+      font-size: 10px; } }
 
 .teacher-card__description-info p {
   margin: 0;
@@ -2162,6 +2169,13 @@ img {
       margin-bottom: 15px;
       font-size: 10px;
       line-height: 15px; } }
+  @media (max-width: 767px) {
+    .teacher-card__description-info p {
+      margin-bottom: 6px; } }
+
+@media (max-width: 767px) {
+  .teacher-card__description-info span {
+    display: none; } }
 
 .teacher-social {
   width: auto;
@@ -2421,8 +2435,8 @@ img {
   @media (max-width: 767px) {
     .reviews__heading {
       font-size: 18px;
-      margin-top: 32px;
-      margin-bottom: 38px; } }
+      margin-top: 41px;
+      margin-bottom: 19px; } }
 
 .reviews__number {
   top: 50%;
@@ -2453,11 +2467,13 @@ img {
       padding-bottom: 23px; } }
   @media (max-width: 767px) {
     .review {
-      width: 250px;
       padding-left: 15px;
+      padding-right: 15px;
       padding-top: 18px;
       padding-bottom: 26px;
-      margin-bottom: 30px; } }
+      margin-bottom: 30px;
+      margin-left: 20px;
+      height: auto; } }
 
 .review__text {
   font-size: 12px;
@@ -2477,8 +2493,8 @@ img {
       padding-right: 0;
       font-size: 10px;
       line-height: 15px;
-      margin-top: 14px;
-      margin-bottom: 25px; } }
+      margin-top: 19px;
+      margin-bottom: 6px; } }
   .review__text p {
     margin: 0;
     margin-bottom: 20px; }
@@ -2500,13 +2516,12 @@ img {
   padding-bottom: 20px; }
   @media (max-width: 1023px) {
     .review-slider {
-      width: 62%;
+      width: 100%;
       padding-top: 0; } }
   @media (max-width: 767px) {
     .review-slider {
-      margin-left: 0;
-      width: 100%;
-      padding-left: 30px; } }
+      padding-right: 0;
+      padding-left: 0; } }
 
 .review-slider__items {
   width: auto;
@@ -2518,10 +2533,6 @@ img {
           align-items: stretch;
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
-  @media (max-width: 767px) {
-    .review-slider__items {
-      width: 400px;
-      height: 290px; } }
 
 .review-slider__pages {
   display: none; }
@@ -2726,7 +2737,7 @@ img {
   @media (max-width: 767px) {
     .footer {
       background-image: url("../img/yoga_footer_mobile@1x.png");
-      margin-top: 69px;
+      margin-top: 47px;
       background-size: 100% 391px; } }
   @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: (1, 5dppx)) {
     .footer {
@@ -2747,7 +2758,7 @@ img {
       color: #ffffff; } }
   @media (max-width: 767px) {
     .footer-info {
-      padding-top: 30px;
+      padding-top: 45px;
       margin-left: 35px;
       width: 200px; } }
 
@@ -2773,6 +2784,9 @@ img {
     color: inherit;
     text-decoration: none;
     display: block; }
+  @media (max-width: 767px) {
+    .footer-info__text {
+      margin-bottom: 17px; } }
 
 .footer-info__phone .footer-info__text {
   font-size: 14px; }
@@ -2861,7 +2875,8 @@ img {
   margin-top: -3px; }
   @media (max-width: 767px) {
     .footer-social {
-      width: 115px; } }
+      width: 100%;
+      margin-top: 2px; } }
 
 .footer-social__item {
   display: -webkit-box;
@@ -2874,9 +2889,17 @@ img {
   height: 20px;
   line-height: 0;
   margin-right: 6px; }
+  @media (max-width: 767px) {
+    .footer-social__item {
+      margin-right: 18px;
+      width: 35px;
+      height: 30px; } }
 
 .footer-social__item--vk {
   margin-right: 5px; }
+  @media (max-width: 767px) {
+    .footer-social__item--vk {
+      margin-right: 19px; } }
 
 .footer-social__link {
   padding: 3px;
@@ -2887,14 +2910,26 @@ img {
 .footer-social__link--vk {
   width: 13px;
   height: 8px; }
+  @media (max-width: 767px) {
+    .footer-social__link--vk {
+      width: 25px;
+      height: 15px; } }
 
 .footer-social__link--tw {
   width: 16px;
   height: 11px; }
+  @media (max-width: 767px) {
+    .footer-social__link--tw {
+      width: 29px;
+      height: 20px; } }
 
 .footer-social__link--fb {
   width: 6px;
   height: 11px; }
+  @media (max-width: 767px) {
+    .footer-social__link--fb {
+      width: 13px;
+      height: 31px; } }
 
 .footer-social__icon {
   fill-opacity: 1; }
@@ -2916,9 +2951,8 @@ img {
 
 @media (max-width: 767px) {
   .footer-social__icon--fb {
-    width: 10px;
-    height: 21px;
-    margin-top: -2px; } }
+    width: 12px;
+    height: 32px; } }
 
 .footer-top__container {
   display: -webkit-box;
@@ -2952,6 +2986,10 @@ img {
     background-color: #8373a1;
     width: 100%; } }
 
+@media (max-width: 767px) {
+  .footer-top__column {
+    padding-bottom: 15px; } }
+
 .form {
   width: 415px; }
   @media (max-width: 1023px) {
@@ -2963,7 +3001,8 @@ img {
       margin-bottom: 70px; } }
   @media (max-width: 767px) {
     .form {
-      width: 320px; } }
+      padding-left: 35px;
+      padding-right: 35px; } }
 
 .form__header {
   font-size: 30px;
@@ -2975,10 +3014,12 @@ img {
   margin-left: 4px; }
   @media (max-width: 767px) {
     .form__header {
+      width: auto;
       font-size: 20px;
       line-height: 27px;
-      width: 274px;
-      margin-bottom: 26px; } }
+      min-width: 274px;
+      margin-bottom: 26px;
+      margin-left: 0; } }
 
 .form__input label {
   font-size: 0; }
@@ -3037,4 +3078,6 @@ img {
     .form__btn {
       width: 250px;
       margin-top: 6px;
-      padding-top: 19px; } }
+      padding-top: 19px;
+      padding-left: 35px;
+      padding-right: 35px; } }

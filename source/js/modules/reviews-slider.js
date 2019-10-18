@@ -27,13 +27,33 @@
         },
       });
     })();
-  } else*/
+  } else
     (function () {
       return new window.Swiper(reviewsSwiper, {
         observeParents: true,
         observer: true,
         slidesPerView: 1,
         slidesPerColumn: 2,
+        spaceBetween: 20,
+        breakpointsInverse: true,
+
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction',
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    })();*/
+
+    (function () {
+      return new window.Swiper(reviewsSwiper, {
+        observeParents: true,
+        observer: true,
+        slidesPerView: 1,
         spaceBetween: 20,
         breakpointsInverse: true,
 

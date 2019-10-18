@@ -33,4 +33,9 @@
     background-color: $purple-footer;
     width: 100%;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-bottom: 15px;
+  }
 }
+

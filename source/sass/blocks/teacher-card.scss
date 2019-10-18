@@ -16,7 +16,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    width: 228px;
+    width: 100%;
     padding-left: 0;
     padding-top: 0;
     padding-bottom: 0;
@@ -235,6 +235,10 @@
     margin-bottom: 15px;
     font-size: 10px;
     line-height: 15px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 6px;
   }
 }
 
