@@ -9,12 +9,14 @@
   padding-bottom: 20px;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 57%;
+    width: 62%;
+    padding-top: 0;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-left: 34px;
-    width: 320px;
+    margin-left: 0;
+    width: 100%;
+    padding-left: 30px;
   }
 }
 
@@ -142,14 +144,38 @@
 
 .review-slider__pagination {
   display: none;
+
+  @media (max-width: $tablet-breakpoint) {
+    display: block;
+    position: static;
+  }
+}
+
+.review-slider__button-container {
+  @media (max-width: $tablet-breakpoint) {
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+    margin: 0 auto;
+    margin-top: 36px;
+  }
 }
 
 .review-slider__button {
   top: 52%;
+
+  @media (max-width: $tablet-breakpoint) {
+    position: static;
+    margin-top: 0;
+  }
 }
 
 .review-slider__button--prev {
   left: 5px;
+
+  @media (max-width: $tablet-breakpoint) {
+    order: -1;
+  }
 }
 
 .review-slider__button--next {

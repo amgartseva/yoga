@@ -30,10 +30,16 @@
       height: 665px;
       background-size: auto 665px;
     }
+
+    @media (max-width: $mobile-breakpoint) {
+      width: 320px;
+      height: 301px;
+      background-size: auto 301px;
+    }
   }
 
-  @media (max-width: $mobile-breakpoint) {
-    min-height: 500px;
+  @media (max-width: $tablet-breakpoint) {
+    background-image: none;
   }
 }
 
@@ -55,6 +61,7 @@
 
   @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
+    margin-bottom: 33px;
   }
 }
 
@@ -72,6 +79,10 @@
   @media (max-width: $tablet-breakpoint) {
     padding: 0 78px;
     padding-right: 64px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding: 0 15px;
   }
 }
 

@@ -12,17 +12,25 @@
 
 
   @media (max-width: $tablet-breakpoint) {
-    max-width: 415px;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding-bottom: 0;
   }
 
   @media (max-width: $mobile-breakpoint) {
     padding-top: 42px;
-    margin-left: 35px;
+    margin-left: 0;
   }
 }
 
 .footer-top__info {
   @media (max-width: $tablet-breakpoint) {
-    display: none;
+  }
+}
+
+.footer-top__column {
+  @media (max-width: $tablet-breakpoint) {
+    background-color: $purple-footer;
+    width: 100%;
   }
 }

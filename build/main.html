@@ -1683,19 +1683,21 @@
               </div>
             </div>
           </div>
-          <div class="review-slider__pagination slider__pagination swiper-pagination"></div>
-          <button class="review-slider__button review-slider__button--prev slider__button slider__button--prev swiper-button-prev" type="button">
-            <span class="visually-hidden">Предыдущий слайд</span>
-            <svg class="slider__button-icon" width="10" height="15" fill="none">
-              <use xlink:href="#arrow_left_purple"></use>
-            </svg>
-          </button>
-          <button class="review-slider__button review-slider__button--next slider__button slider__button--next swiper-button-next" type="button">
-            <span class="visually-hidden">Следующий слайд</span>
-            <svg class="slider__button-icon" width="10" height="15" fill="none">
-              <use xlink:href="#arrow_right_white"></use>
-            </svg>
-          </button>
+          <div class="review-slider__button-container">
+            <div class="review-slider__pagination slider__pagination swiper-pagination"></div>
+            <button class="review-slider__button review-slider__button--prev slider__button slider__button--prev swiper-button-prev" type="button">
+              <span class="visually-hidden">Предыдущий слайд</span>
+              <svg class="slider__button-icon" width="10" height="15" fill="none">
+                <use xlink:href="#arrow_left_purple"></use>
+              </svg>
+            </button>
+            <button class="review-slider__button review-slider__button--next slider__button slider__button--next swiper-button-next" type="button">
+              <span class="visually-hidden">Следующий слайд</span>
+              <svg class="slider__button-icon" width="10" height="15" fill="none">
+                <use xlink:href="#arrow_right_white"></use>
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
 
@@ -1705,49 +1707,52 @@
     <div class="footer__top footer-top">
       <div class="wrapper">
         <div class="footer-top__container">
-          <div class="footer-top__info footer-info">
-            <div class="footer-info__columns">
-              <div class="footer-info__address">
-                <p class="footer-info__title">Адрес:</p>
-                <p class="footer-info__text">Московский проспект, 22</p>
+          <div class="footer-top__column">
+            <div class="footer-top__info footer-info">
+              <div class="footer-info__columns">
+                <div class="footer-info__address">
+                  <p class="footer-info__title">Адрес:</p>
+                  <p class="footer-info__text">Московский проспект, 22</p>
+                </div>
+                <div class="footer-info__working-hours">
+                  <p class="footer-info__title">График работы:</p>
+                  <p class="footer-info__text">Пн-Вс с 11:00 до 21:00</p>
+                </div>
+                <div class="footer-info__phone">
+                  <p class="footer-info__title">Телефон:</p>
+                  <a class="footer-info__text footer-info__text--link" href="tel:88126901010">8 (812) 690-10-10</a>
+                </div>
+                <div class="footer-info__email">
+                  <p class="footer-info__title">Email:</p>
+                  <a class="footer-info__text footer-info__text--link" href="mailto:yogaspb@gmail.com">yogaspb@gmail.com</a>
+                </div>
               </div>
-              <div class="footer-info__working-hours">
-                <p class="footer-info__title">График работы:</p>
-                <p class="footer-info__text">Пн-Вс с 11:00 до 21:00</p>
-              </div>
-              <div class="footer-info__phone">
-                <p class="footer-info__title">Телефон:</p>
-                <a class="footer-info__text footer-info__text--link" href="tel:88126901010">8 (812) 690-10-10</a>
-              </div>
-              <div class="footer-info__email">
-                <p class="footer-info__title">Email:</p>
-                <a class="footer-info__text footer-info__text--link" href="mailto:yogaspb@gmail.com">yogaspb@gmail.com</a>
-              </div>
+              <ul class="footer-info__social footer-social">
+                <li class="footer-social__item footer-social__item--vk">
+                  <a class="footer-social__link footer-social__link--vk" href="#" aria-label="Вконтакте">
+                    <svg class="footer-social__icon footer-social__icon--vk icon" width="13" height="8" fill="none">
+                      <use xlink:href="#VK"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link footer-social__link--tw" href="#" aria-label="Twitter">
+                    <svg class="footer-social__icon footer-social__icon--tw icon" width="16" height="11" fill="none">
+                      <use xlink:href="#Twitter"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="footer-social__item">
+                  <a class="footer-social__link footer-social__link--fb" href="#" aria-label="Facebook">
+                    <svg class="footer-social__icon footer-social__icon--fb icon" width="6" height="11" fill="none">
+                      <use xlink:href="#Facebook"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
-            <ul class="footer-info__social footer-social">
-              <li class="footer-social__item footer-social__item--vk">
-                <a class="footer-social__link footer-social__link--vk" href="#" aria-label="Вконтакте">
-                  <svg class="footer-social__icon footer-social__icon--vk icon" width="13" height="8" fill="none">
-                    <use xlink:href="#VK"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link footer-social__link--tw" href="#" aria-label="Twitter">
-                  <svg class="footer-social__icon footer-social__icon--tw icon" width="16" height="11" fill="none">
-                    <use xlink:href="#Twitter"></use>
-                  </svg>
-                </a>
-              </li>
-              <li class="footer-social__item">
-                <a class="footer-social__link footer-social__link--fb" href="#" aria-label="Facebook">
-                  <svg class="footer-social__icon footer-social__icon--fb icon" width="6" height="11" fill="none">
-                    <use xlink:href="#Facebook"></use>
-                  </svg>
-                </a>
-              </li>
-            </ul>
           </div>
+
           <div class="footer-top__form form">
             <form action="index.html" method="post">
               <p class="form__header">Запишитесь на бесплатное пробное занятие</p>

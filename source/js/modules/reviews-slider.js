@@ -1,9 +1,7 @@
 'use strict';
-var swiper;
 
 (function () {
   var reviewsSwiper = document.querySelector('.review-slider');
-
   if (!reviewsSwiper) {
     return;
   }
@@ -29,9 +27,9 @@ var swiper;
         },
       });
     })();
-  } else*/ if (window.matchMedia('(max-width: 1023px)').matches) {
+  } else*/
     (function () {
-      swiper = new window.Swiper(reviewsSwiper, {
+      return new window.Swiper(reviewsSwiper, {
         observeParents: true,
         observer: true,
         slidesPerView: 1,
@@ -50,5 +48,4 @@ var swiper;
         },
       });
     })();
-  }
 })();

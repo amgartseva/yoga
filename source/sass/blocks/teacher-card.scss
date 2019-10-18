@@ -17,9 +17,13 @@
 
   @media (max-width: $mobile-breakpoint) {
     width: 228px;
-    padding-left: 96px;
-    padding-top: 16px;
-    padding-bottom: 14px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+
+    height: 100%;
+    flex-wrap: wrap;
   }
 }
 
@@ -44,16 +48,32 @@
     padding-top: 11px;
     padding-bottom: 11px;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 96px;
+    padding-right: 11px;
+    padding-top: 16px;
+    margin: 0;
+    width: 100%;
+  }
 }
 
 .teacher-card__container-left {
   display: flex;
   flex-direction: column;
   margin-right: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 75%;
+  }
 }
 
 .teacher-card__teacher-info {
   margin-bottom: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 0;
+  }
 }
 
 .teacher-card__teacher-position {
@@ -96,6 +116,10 @@
 .teacher-card__container-right {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 25%;
+  }
 }
 
 .teacher-card__photo {
@@ -158,6 +182,12 @@
 
 .teacher-card__description {
   display: none;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+  }
 }
 
 .teacher-card__description-name {
@@ -170,6 +200,10 @@
   @media (max-width: $tablet-breakpoint) {
     font-size: 16px;
     margin-bottom: 0;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
   }
 }
 
@@ -184,6 +218,10 @@
     font-size: 12px;
     margin-bottom: 7px;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 10px;
+  }
 }
 
 .teacher-card__description-info p {
@@ -197,5 +235,11 @@
     margin-bottom: 15px;
     font-size: 10px;
     line-height: 15px;
+  }
+}
+
+.teacher-card__description-info span {
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
   }
 }

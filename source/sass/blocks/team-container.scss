@@ -7,6 +7,11 @@
     display: block;
     width: 46%;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 78%;
+    margin-left: 31px;
+  }
 }
 
 .team-container__slider-button-wrapper {
@@ -24,6 +29,16 @@
     width: 106px;
     margin-top: 0;
     margin-right: 18px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 100%;
+    margin-right: 0;
+
+    .slider__button {
+      width: 16px;
+      height: 31px;
+    }
   }
 }
 
@@ -52,4 +67,20 @@
   &--prev {
     order: 0;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    position: absolute;
+    top: 25%;
+    z-index: 3;
+
+    &--prev {
+      left: -33px;
+    }
+
+    &--next {
+      right: -33px;
+    }
+  }
 }
+
+

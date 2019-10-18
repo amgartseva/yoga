@@ -12,4 +12,8 @@
     line-height: 15px;
     margin-bottom: 7px;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 5px;
+  }
 }

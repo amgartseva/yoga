@@ -19,11 +19,28 @@
     background-size: 100% auto;
     background-position: center 22px;
 
+    &::before {
+      content: "";
+      position: absolute;
+      height: 274px;
+      width: 307px;
+      background-image: url("../img/yoga_pattern_screen_1@1x.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 307px 274px;
+      bottom: -57px;
+      right: 0;
+      z-index: -1;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/yoga_pattern_screen_1@2x.png");
+      }
+    }
   }
 
   @media (max-width: $mobile-breakpoint) {
     padding-top: 13px;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 
     background-image: url("../img/yoga_clouds_mobile@1x.png");
     background-position: center 90px;

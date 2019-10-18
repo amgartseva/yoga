@@ -31,7 +31,7 @@
     }
   });
 
-  (function () {
+  /*(function () {
     return new window.Swiper(teamSwiper, {
       observeParents: true,
       observer: true,
@@ -43,6 +43,21 @@
         el: '.swiper-pagination',
         type: 'fraction',
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  })();*/
+
+  (function () {
+    return new window.Swiper(teamSwiper, {
+      observeParents: true,
+      observer: true,
+      slidesPerView: 1,
+      breakpointsInverse: true,
+      spaceBetween: 20,
+
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

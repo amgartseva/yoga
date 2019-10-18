@@ -1,6 +1,12 @@
 .form {
   width: 415px;
 
+  @media (max-width: $tablet-breakpoint) {
+    order: -1;
+    margin: 0 auto;
+    margin-bottom: 70px;
+  }
+
   @media (max-width: $mobile-breakpoint) {
     width: 320px;
   }

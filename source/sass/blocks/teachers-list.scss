@@ -17,8 +17,11 @@
   @media (max-width: $mobile-breakpoint) {
     margin-right: 0;
     width: 250px;
-    height: 100px;
-    padding-top: 14px;
+    height: 100%;
+    margin-top: 0;
+    padding-top: 0;
+
+    flex-direction: row;
   }
 }
 
@@ -33,5 +36,10 @@
   @media (max-width: $tablet-breakpoint) {
     margin-top: 10px;
     margin-bottom: 22px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-top: 0;
+    margin-bottom: 0;
   }
 }

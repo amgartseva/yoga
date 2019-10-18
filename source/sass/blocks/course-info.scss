@@ -78,8 +78,9 @@
   @media (max-width: $mobile-breakpoint) {
     padding-left: 20px;
     padding-top: 16px;
-    padding-bottom: 13px;
+    padding-bottom: 0;
     padding-right: 20px;
+    width: 80%;
   }
 }
 
@@ -87,6 +88,13 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 17px;
+    width: 80%;
+  }
 }
 
 .course-info__heading {
@@ -99,6 +107,10 @@
     font-size: 12px;
     line-height: 15px;
     margin-bottom: 3px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 4px;
   }
 }
 
@@ -118,6 +130,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+
   }
 }
 
@@ -142,9 +155,13 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+    position: absolute;
+
     width: 43px;
-    height: auto;
+    height: 100%;
     margin: 0;
+    top: 0;
+    right: 0;
   }
 }
 

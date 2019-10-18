@@ -60,11 +60,9 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
 })();
 
 'use strict';
-var swiper;
 
 (function () {
   var reviewsSwiper = document.querySelector('.review-slider');
-
   if (!reviewsSwiper) {
     return;
   }
@@ -90,9 +88,9 @@ var swiper;
         },
       });
     })();
-  } else*/ if (window.matchMedia('(max-width: 1023px)').matches) {
+  } else*/
     (function () {
-      swiper = new window.Swiper(reviewsSwiper, {
+      return new window.Swiper(reviewsSwiper, {
         observeParents: true,
         observer: true,
         slidesPerView: 1,
@@ -111,7 +109,6 @@ var swiper;
         },
       });
     })();
-  }
 })();
 
 'use strict';
@@ -314,7 +311,7 @@ var swiper;
     }
   });
 
-  (function () {
+  /*(function () {
     return new window.Swiper(teamSwiper, {
       observeParents: true,
       observer: true,
@@ -326,6 +323,21 @@ var swiper;
         el: '.swiper-pagination',
         type: 'fraction',
       },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  })();*/
+
+  (function () {
+    return new window.Swiper(teamSwiper, {
+      observeParents: true,
+      observer: true,
+      slidesPerView: 1,
+      breakpointsInverse: true,
+      spaceBetween: 20,
+
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',

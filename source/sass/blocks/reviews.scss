@@ -25,7 +25,6 @@
   @media (max-width: $mobile-breakpoint) {
     font-size: 18px;
     margin-top: 32px;
-    margin-left: 125px;
     margin-bottom: 38px;
   }
 }
@@ -33,9 +32,4 @@
 .reviews__number {
   top: 50%;
   right: 0;
-
-  @media (max-width: $tablet-breakpoint) {
-    top: 2359px;
-    right: 30px;
-  }
 }
