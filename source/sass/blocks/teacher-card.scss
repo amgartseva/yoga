@@ -51,7 +51,7 @@
 
   @media (max-width: $mobile-breakpoint) {
     padding-left: 96px;
-    padding-right: 11px;
+    padding-right: 18px;
     padding-top: 16px;
     margin: 0;
     width: 100%;
@@ -119,6 +119,8 @@
 
   @media (max-width: $mobile-breakpoint) {
     width: 25%;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
 

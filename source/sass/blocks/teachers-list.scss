@@ -15,6 +15,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+    position: static;
     margin-right: 0;
     width: auto;
     height: 100%;
@@ -39,7 +40,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-top: 0;
+    margin-top: 20px;
     margin-bottom: 0;
   }
 }

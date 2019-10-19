@@ -53,4 +53,9 @@
       height: 9px;
     }
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 31px;
+    height: 16px;
+  }
 }

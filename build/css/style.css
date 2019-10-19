@@ -1760,7 +1760,7 @@ img {
   @media (max-width: 767px) {
     .team__heading {
       font-size: 18px;
-      margin-bottom: 33px; } }
+      margin-bottom: 13px; } }
 
 .team__number {
   top: 48%;
@@ -1814,6 +1814,7 @@ img {
       width: 46%; } }
   @media (max-width: 767px) {
     .team-container {
+      position: relative;
       width: 100%; } }
 
 .team-container__slider-button-wrapper {
@@ -1854,9 +1855,18 @@ img {
     .team-container__slider-pagination {
       right: 60px;
       bottom: -2px; } }
+  @media (max-width: 767px) {
+    .team-container__slider-pagination {
+      display: none; } }
 
 .team-container__slider {
   width: 100%; }
+  @media (max-width: 767px) {
+    .team-container__slider {
+      width: 90%;
+      padding-left: 16px;
+      padding-right: 16px;
+      position: static; } }
 
 .team-container__slider-button {
   position: static;
@@ -1869,12 +1879,12 @@ img {
   @media (max-width: 767px) {
     .team-container__slider-button {
       position: absolute;
-      top: 25%;
+      top: 46px;
       z-index: 3; }
       .team-container__slider-button--prev {
-        left: -33px; }
+        left: 0; }
       .team-container__slider-button--next {
-        right: -33px; } }
+        right: 0; } }
 
 .slider__pagination {
   width: auto;
@@ -1936,6 +1946,7 @@ img {
       height: 364px; } }
   @media (max-width: 767px) {
     .teachers-list {
+      position: static;
       margin-right: 0;
       width: auto;
       height: 100%;
@@ -1957,7 +1968,7 @@ img {
       margin-bottom: 22px; } }
   @media (max-width: 767px) {
     .teachers-list__item {
-      margin-top: 0;
+      margin-top: 20px;
       margin-bottom: 0; } }
 
 .teacher-card {
@@ -2011,7 +2022,7 @@ img {
   @media (max-width: 767px) {
     .teacher-card__wrapper {
       padding-left: 96px;
-      padding-right: 11px;
+      padding-right: 18px;
       padding-top: 16px;
       margin: 0;
       width: 100%; } }
@@ -2076,7 +2087,14 @@ img {
           flex-direction: column; }
   @media (max-width: 767px) {
     .teacher-card__container-right {
-      width: 25%; } }
+      width: 25%;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; } }
 
 .teacher-card__photo {
   position: absolute;
@@ -2211,9 +2229,9 @@ img {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      -webkit-box-align: center;
-          -ms-flex-align: center;
-              align-items: center;
+      -webkit-box-align: end;
+          -ms-flex-align: end;
+              align-items: flex-end;
       height: 100%; } }
 
 .teacher-social__link {
@@ -2439,7 +2457,7 @@ img {
   @media (max-width: 767px) {
     .reviews__heading {
       font-size: 18px;
-      margin-top: 41px;
+      margin-top: 56px;
       margin-bottom: 19px; } }
 
 .reviews__number {
@@ -2476,7 +2494,6 @@ img {
       padding-top: 18px;
       padding-bottom: 26px;
       margin-bottom: 30px;
-      margin-left: 20px;
       height: auto; } }
 
 .review__text {
@@ -2524,6 +2541,7 @@ img {
       padding-top: 0; } }
   @media (max-width: 767px) {
     .review-slider {
+      width: 78%;
       padding-right: 0;
       padding-left: 0; } }
 
@@ -2829,8 +2847,7 @@ img {
       padding-bottom: 65px; } }
   @media (max-width: 767px) {
     .footer-bottom__container {
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+      display: block;
       margin-left: 35px;
       margin-right: 40px; } }
 

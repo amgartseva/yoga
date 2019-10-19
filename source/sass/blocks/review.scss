@@ -20,12 +20,14 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+    width: 98%;
+    margin-left: 0;
+    margin-right: 0;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 18px;
-    padding-bottom: 26px;
+    padding-bottom: 22px;
     margin-bottom: 30px;
-    margin-left: 20px;
     height: auto;
   }
 }

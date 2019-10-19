@@ -9,6 +9,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
+    position: relative;
     width: 100%;
   }
 }
@@ -65,6 +66,7 @@
     width: 90%;
     padding-left: 16px;
     padding-right: 16px;
+    position: static;
   }
 }
 
@@ -79,15 +81,15 @@
 
   @media (max-width: $mobile-breakpoint) {
     position: absolute;
-    top: 25%;
+    top: 46px;
     z-index: 3;
 
     &--prev {
-      left: -33px;
+      left: 0;
     }
 
     &--next {
-      right: -33px;
+      right: 0;
     }
   }
 }
