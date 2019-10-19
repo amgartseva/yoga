@@ -68,7 +68,7 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
   }
 
     (function () {
-      swiper = new window.Swiper(reviewsSwiper, {
+      return new window.Swiper(reviewsSwiper, {
         observeParents: true,
         observer: true,
         slidesPerView: 1,
@@ -84,6 +84,7 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
+          disabledClass: 'swiper-button-disabled',
         },
 
         breakpoints: {
@@ -315,6 +316,7 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
+        disabledClass: 'swiper-button-disabled',
       },
 
       pagination: {

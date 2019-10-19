@@ -22,7 +22,7 @@
   }
 
   @media (max-width: $mobile-breakpoint) {
-    display: block;
+    flex-direction: column;
     margin-left: 35px;
     margin-right: 40px;
   }

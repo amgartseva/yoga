@@ -7,7 +7,7 @@
   }
 
     (function () {
-      swiper = new window.Swiper(reviewsSwiper, {
+      return new window.Swiper(reviewsSwiper, {
         observeParents: true,
         observer: true,
         slidesPerView: 1,
@@ -23,6 +23,7 @@
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
+          disabledClass: 'swiper-button-disabled',
         },
 
         breakpoints: {
