@@ -63,7 +63,6 @@
   width: 100%;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 90%;
     padding-left: 16px;
     padding-right: 16px;
     position: static;
@@ -90,6 +89,11 @@
 
     &--next {
       right: 0;
+    }
+
+    svg {
+      top: 36%;
+      left: 18%;
     }
   }
 }

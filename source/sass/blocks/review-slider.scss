@@ -9,12 +9,13 @@
   padding-bottom: 20px;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 61%;
+    width: 83%;
+    padding-right: 10px;
     padding-top: 0;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    width: 80%;
+    width: 91%;
     padding-right: 0;
     padding-left: 0;
   }
@@ -156,7 +157,7 @@
     justify-content: space-between;
     width: 104px;
     margin: 0 auto;
-    margin-top: 36px;
+    margin-top: 40px;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -171,20 +172,26 @@
     position: relative;
     margin-top: 0;
   }
+
+  @media (max-width: $mobile-breakpoint) {
+    svg {
+      left: 30%;
+      top: 3px;
+    }
+  }
 }
 
 .review-slider__button--prev {
+  left: 6px;
+
   @media (max-width: $tablet-breakpoint) {
     order: -1;
-  }
-
-  @media (max-width: $mobile-breakpoint) {
-    left: 5px;
+    left: 0;
   }
 }
 
 .review-slider__button--next {
-  @media (max-width: $mobile-breakpoint) {
-    right: 5px;
-  }
+  right: 0;
 }
+
+

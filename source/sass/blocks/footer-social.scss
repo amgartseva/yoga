@@ -12,6 +12,7 @@
   @media (max-width: $mobile-breakpoint) {
     width: 100%;
     margin-top: 0;
+    margin-left: 0;
   }
 }
 
@@ -21,20 +22,24 @@
   width: 20px;
   height: 20px;
   line-height: 0;
-
-  @media (max-width: $tablet-breakpoint) {
-    margin-right: 5px;
-  }
+  margin-right: 7px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 35px;
     height: 30px;
+    margin-right: 18px;
   }
 }
 
 .footer-social__item--vk {
+  margin-right: 5px;
+
   @media (max-width: $tablet-breakpoint) {
-    margin-right: 7px;
+    margin-right: 4px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-right: 16px;
   }
 }
 
@@ -42,7 +47,6 @@
   padding: 3px;
   display: block;
   box-sizing: content-box;
-  margin-right: 7px;
 
   &:hover .icon {
     fill-opacity: 0.65;
@@ -50,7 +54,6 @@
 
   @media (max-width: $mobile-breakpoint) {
     padding: 0;
-    margin-right: 18px;
   }
 }
 
@@ -58,12 +61,10 @@
   width: 13px;
   height: 8px;
   margin-top: -2px;
-  margin-right: 5px;
 
   @media (max-width: $mobile-breakpoint) {
     width: 25px;
     height: 15px;
-    margin-right: 19px;
   }
 }
 
@@ -82,8 +83,8 @@
   height: 11px;
 
   @media (max-width: $mobile-breakpoint) {
-    width: 13px;
-    height: 31px;
+    width: 12px;
+    height: 26px;
   }
 }
 
@@ -98,7 +99,7 @@
 .footer-social__icon--tw {
   @media (max-width: $mobile-breakpoint) {
     width: 29px;
-    height: 20px;
+    height: 22px;
     padding-top: 0;
     margin-top: -1px;
   }
@@ -114,6 +115,6 @@
 .footer-social__icon--fb {
   @media (max-width: $mobile-breakpoint) {
     width: 12px;
-    height: 32px;
+    height: 25px;
   }
 }
