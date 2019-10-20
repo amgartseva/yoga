@@ -43,7 +43,6 @@
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-        disabledClass: 'swiper-button-disabled',
       },
 
       pagination: {

@@ -57,5 +57,12 @@
   @media (max-width: $mobile-breakpoint) {
     width: 31px;
     height: 16px;
+
+    svg {
+      height: 8px;
+      top: 3px;
+      position: absolute;
+      left: 30%;
+    }
   }
 }

@@ -151,6 +151,7 @@
   border: none;
   color: $purple-dark;
   font-size: 12px;
+  font-weight: 400;
   line-height: 15px;
   border-bottom: 1px solid $purple-dark;
   padding-left: 0;
@@ -158,6 +159,11 @@
   padding-bottom: 0;
   max-width: 100px;
   cursor: pointer;
+
+  &:hover {
+    color: $purple-light;
+    border-color: $purple-light;
+  }
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;

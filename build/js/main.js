@@ -75,16 +75,16 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
         slidesPerGroup: 1,
         spaceBetween: 20,
         breakpointsInverse: true,
+        loop: false,
 
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          type: 'fraction',
-        },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-          disabledClass: 'swiper-button-disabled',
+        },
+
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction',
         },
 
         breakpoints: {
@@ -98,6 +98,7 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
             slidesPerColumn: 1,
             slidesPerView: 2,
             slidesPerGroup: 2,
+            loop: true,
           }
         }
       });
@@ -316,7 +317,6 @@ var objectFitImages=function(){"use strict";function t(t,e){return"data:image/sv
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
-        disabledClass: 'swiper-button-disabled',
       },
 
       pagination: {

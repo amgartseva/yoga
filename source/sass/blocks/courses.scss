@@ -110,6 +110,10 @@
   display: block;
   line-height: 0;
 
+  &:hover .course-info__button {
+    background-color: $purple-light;
+  }
+
   @media (max-width: $mobile-breakpoint) {
     margin-bottom: 30px;
   }
@@ -142,6 +146,10 @@
     padding-right: 20px;
     margin-bottom: 0;
     margin-top: auto;
+
+    &:hover {
+      color: $purple-light;
+    }
 
     @media (max-width: $tablet-breakpoint) {
       padding-top: 6px;

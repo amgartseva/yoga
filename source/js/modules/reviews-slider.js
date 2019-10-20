@@ -14,16 +14,16 @@
         slidesPerGroup: 1,
         spaceBetween: 20,
         breakpointsInverse: true,
+        loop: false,
 
-        loop: true,
-        pagination: {
-          el: '.swiper-pagination',
-          type: 'fraction',
-        },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
-          disabledClass: 'swiper-button-disabled',
+        },
+
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'fraction',
         },
 
         breakpoints: {
@@ -37,6 +37,7 @@
             slidesPerColumn: 1,
             slidesPerView: 2,
             slidesPerGroup: 2,
+            loop: true,
           }
         }
       });

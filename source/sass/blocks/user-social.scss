@@ -8,13 +8,27 @@
 }
 
 .user-social__link {
+  line-height: 0;
+  width: 20px;
+  height: 20px;
   color: inherit;
   text-decoration: none;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
   box-sizing: border-box;
-  padding-right: 10px;
+  margin-right: 5px;
+
+  &:hover .icon {
+    fill-opacity: 1;
+  }
 }
 
 .user-social__icon--tw {
-  margin-top: 4px;
+  margin-top: 2px;
+
+  @media (max-width: $tablet-breakpoint) {
+    margin-top: 0;
+  }
 }
