@@ -175,7 +175,8 @@
 
   @media (max-width: $mobile-breakpoint) {
     svg {
-      left: 30%;
+      left: 50%;
+      transform: translateX(-50%);;
       top: 3px;
     }
   }

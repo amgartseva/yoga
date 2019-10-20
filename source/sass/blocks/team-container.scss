@@ -80,7 +80,8 @@
 
   @media (max-width: $mobile-breakpoint) {
     position: absolute;
-    top: 46px;
+    left: 50%;
+    transform: translateX(-50%);
     z-index: 3;
 
     &--prev {
