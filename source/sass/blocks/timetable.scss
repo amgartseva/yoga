@@ -10,6 +10,10 @@
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
     line-height: 15px;
-    margin-bottom: auto;
+    margin-bottom: 7px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 5px;
   }
 }

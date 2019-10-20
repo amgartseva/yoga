@@ -17,6 +17,10 @@
   text-decoration: none;
   color: inherit;
 
+  &:hover {
+    opacity: 0.5;
+  }
+
   @media (max-width: $tablet-breakpoint) {
     font-size: 12px;
     line-height: 12px;

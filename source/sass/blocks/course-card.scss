@@ -17,7 +17,6 @@
 .course-card__container {
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .courses__column .course-card__container {
@@ -63,7 +62,7 @@
 
   @media (max-width: $tablet-breakpoint) {
     min-width: 148px;
-    width: 100%;
+    width: 43%;
   }
 
   @media (max-width: $mobile-breakpoint) {

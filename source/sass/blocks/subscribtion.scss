@@ -1,6 +1,6 @@
 .subscribtion {
   position: relative;
-  min-height: 700px;
+  min-height: 675px;
   padding-top: 66px;
   padding-bottom: 57px;
   text-align: center;
@@ -14,16 +14,33 @@
   }
 
   @media (max-width: $tablet-breakpoint) {
-    min-height: 420px;
+    min-height: 476px;
     padding-top: 37px;
     background-size: 100% auto;
     background-position: center 22px;
 
+    &::before {
+      content: "";
+      position: absolute;
+      height: 274px;
+      width: 307px;
+      background-image: url("../img/yoga_pattern_screen_1@1x.png");
+      background-repeat: no-repeat;
+      background-position: 0 0;
+      background-size: 307px 274px;
+      bottom: -57px;
+      right: 0;
+      z-index: -1;
+
+      @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+        background-image: url("../img/yoga_pattern_screen_1@2x.png");
+      }
+    }
   }
 
   @media (max-width: $mobile-breakpoint) {
     padding-top: 13px;
-    padding-bottom: 20px;
+    padding-bottom: 33px;
 
     background-image: url("../img/yoga_clouds_mobile@1x.png");
     background-position: center 90px;
@@ -37,7 +54,6 @@
 
 .subscribtion__wrapper {
   @media (max-width: $mobile-breakpoint) {
-    max-width: 555px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -47,7 +63,7 @@
   top: 33%;
 
   @media (max-width: $tablet-breakpoint) {
-
+    top: 44%;
   }
 }
 

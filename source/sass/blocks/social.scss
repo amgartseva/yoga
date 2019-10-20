@@ -27,11 +27,13 @@
     width: 12px;
     height: 12px;
   }
+
+  &:hover .icon {
+    fill-opacity: 1;
+  }
 }
 
 .social__icon {
-
-
   @media (max-width: $tablet-breakpoint) {
     &--vk {
       width: 7px;

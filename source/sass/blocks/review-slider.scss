@@ -1,5 +1,6 @@
 .review-slider {
-  max-width: 905px;
+  max-width: 950px;
+  width: 100%;
   position: relative;
   margin: 0 auto;
   padding-right: 20px;
@@ -8,12 +9,15 @@
   padding-bottom: 20px;
 
   @media (max-width: $tablet-breakpoint) {
-    margin-left: 169px;
+    width: 83%;
+    padding-right: 10px;
+    padding-top: 0;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    margin-left: 34px;
-    width: 320px;
+    width: 91%;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 
@@ -24,13 +28,10 @@
   box-sizing: border-box;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 442px;
-    flex-wrap: wrap;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    width: 400px;
-    height: 290px;
+
   }
 }
 
@@ -132,8 +133,6 @@
 }
 
 .review-slider__icon {
-
-
   @media (max-width: $tablet-breakpoint) {
     width: 7px;
   }
@@ -145,12 +144,55 @@
 
 .review-slider__pagination {
   display: none;
+
+  @media (max-width: $tablet-breakpoint) {
+    display: block;
+    position: static;
+  }
+}
+
+.review-slider__button-container {
+  @media (max-width: $tablet-breakpoint) {
+    display: flex;
+    justify-content: space-between;
+    width: 104px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-top: 0;
+  }
+}
+
+.review-slider__button {
+  top: 55%;
+
+  @media (max-width: $tablet-breakpoint) {
+    position: relative;
+    margin-top: 0;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    svg {
+      left: 50%;
+      transform: translateX(-50%);;
+      top: 3px;
+    }
+  }
 }
 
 .review-slider__button--prev {
-  left: 0;
+  left: 6px;
+
+  @media (max-width: $tablet-breakpoint) {
+    order: -1;
+    left: 0;
+  }
 }
 
 .review-slider__button--next {
   right: 0;
 }
+
+

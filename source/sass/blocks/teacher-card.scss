@@ -2,49 +2,80 @@
   position: relative;
   display: flex;
   width: 100%;
-  padding-top: 48px;
+  padding-top: 55px;
 
-  height: calc((100% - 40px) / 3);
+  height: calc((100% - 100px) / 3);
 
   @media (max-width: $tablet-breakpoint) {
     width: 255px;
-    padding-left: 83px;
     padding-top: 10px;
-    padding-right: 12px;
+    padding-right: 6px;
     padding-bottom: 3px;
-    margin-bottom: 58px;
+
+    height: calc((100% - 118px) / 3);
   }
 
   @media (max-width: $mobile-breakpoint) {
-    width: 228px;
-    padding-left: 96px;
-    padding-top: 16px;
-    padding-bottom: 14px;
+    width: 100%;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+
+    height: 100%;
+    flex-wrap: wrap;
   }
 }
 
 .teacher-card__wrapper {
   display: flex;
-  width: 90%;
+  width: 92%;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 150px;
-  padding-right: 15px;
-  padding-top: 25px;
+  padding-left: 147px;
+  padding-right: 24px;
+  padding-top: 20px;
   padding-bottom: 17px;
 
   background-color: $white;
   box-shadow: 0 4px 25px rgba(142, 128, 169, 0.2);
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 90%;
+    margin-left: 15px;
+    padding-left: 84px;
+    padding-right: 11px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    padding-left: 96px;
+    padding-right: 18px;
+    padding-top: 16px;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 100%;
+  }
 }
 
 .teacher-card__container-left {
   display: flex;
   flex-direction: column;
   margin-right: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 75%;
+  }
 }
 
 .teacher-card__teacher-info {
   margin-bottom: auto;
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 0;
+  }
 }
 
 .teacher-card__teacher-position {
@@ -76,8 +107,10 @@
   line-height: 20px;
   color: $purple-dark;
   margin: 0;
+  margin-top: 9px;
 
   @media (max-width: $tablet-breakpoint) {
+    margin-top: 4px;
     font-size: 10px;
   }
 }
@@ -85,6 +118,12 @@
 .teacher-card__container-right {
   display: flex;
   flex-direction: column;
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 25%;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
 }
 
 .teacher-card__photo {
@@ -97,15 +136,16 @@
   overflow: hidden;
 
   @media (max-width: $tablet-breakpoint) {
-    left: -15px;
-    top: -35px;
     width: 90px;
+    top: -23px;
   }
 
   @media (max-width: $mobile-breakpoint) {
     top: 0;
     left: 0;
     width: 82px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 
@@ -115,12 +155,19 @@
   border: none;
   color: $purple-dark;
   font-size: 12px;
+  font-weight: 400;
   line-height: 15px;
   border-bottom: 1px solid $purple-dark;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 0;
+  max-width: 100px;
   cursor: pointer;
+
+  &:hover {
+    color: $purple-light;
+    border-color: $purple-light;
+  }
 
   @media (max-width: $tablet-breakpoint) {
     font-size: 10px;
@@ -135,7 +182,7 @@
       background-color: $purple-dark;
       width: 48px;
       height: 1px;
-      top: 22px;
+      top: 17px;
     }
   }
 
@@ -147,6 +194,14 @@
 
 .teacher-card__description {
   display: none;
+
+  @media (max-width: $mobile-breakpoint) {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .teacher-card__description-name {
@@ -155,6 +210,15 @@
   color: $purple-dark;
   margin: 0;
   margin-bottom: 10px;
+
+  @media (max-width: $tablet-breakpoint) {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }
 
 .teacher-card__description-experience {
@@ -163,6 +227,15 @@
   color: $pink;
   margin: 0;
   margin-bottom: 24px;
+
+  @media (max-width: $tablet-breakpoint) {
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    font-size: 10px;
+  }
 }
 
 .teacher-card__description-info p {
@@ -171,4 +244,20 @@
   font-size: 12px;
   line-height: 20px;
   color: $purple-dark;
+
+  @media (max-width: $tablet-breakpoint) {
+    margin-bottom: 15px;
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 6px;
+  }
+}
+
+.teacher-card__description-info span {
+  @media (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }

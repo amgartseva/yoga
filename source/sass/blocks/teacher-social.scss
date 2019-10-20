@@ -10,18 +10,61 @@
   margin-bottom: auto;
 
   @media (max-width: $tablet-breakpoint) {
-    width: 25px;
-    margin-right: 11px;
-    margin-top: -3px;
+    justify-content: center;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
   }
 }
 
 .teacher-social__link {
-  margin-left: 5px;
-  padding: 5px;
-
   color: inherit;
   text-decoration: none;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 0;
+
+  &:hover .icon {
+    fill-opacity: 1;
+  }
+
+  @media (max-width: $tablet-breakpoint) {
+    width: 15px;
+    height: 15px;
+    justify-content: center;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    width: 23px;
+    height: 23px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    justify-content: flex-end;
+    align-items: stretch;
+  }
+}
+
+.teacher-social__item {
+  margin-left: 7px;
+
+  @media (max-width: $tablet-breakpoint) {
+    margin-left: 0;
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 5px;
+  }
 }
 
 .teacher-social__icon--vk {
@@ -31,17 +74,20 @@
 
   @media (max-width: $mobile-breakpoint) {
     width: 17px;
+    height: 100%;
   }
 }
 
 .teacher-social__icon--tw {
-  margin-top: 6px;
+  margin-top: 2px;
 
   @media (max-width: $tablet-breakpoint) {
+    margin-top: 2px;
     width: 11px;
   }
 
   @media (max-width: $mobile-breakpoint) {
     width: 18px;
+    height: 100%;
   }
 }

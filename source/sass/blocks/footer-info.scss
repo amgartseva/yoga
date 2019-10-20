@@ -4,18 +4,19 @@
   color: $purple-dark;
   width: 400px;
   padding-top: 133px;
-  margin-right: 108px;
+  margin-left: 35px;
 
   @media (max-width: $tablet-breakpoint) {
     margin-right: 0;
-    padding-top: 61px;
-    margin-left: 78px;
+    padding-top: 76px;
+    margin-left: 77px;
+    color: $white;
   }
 
   @media (max-width: $mobile-breakpoint) {
-    padding-top: 30px;
+    padding-top: 45px;
     margin-left: 35px;
-    width: 200px;
+    width: auto;
   }
 }
 
@@ -23,6 +24,10 @@
   column-count: 2;
   column-width: 160px;
   column-gap: 20px;
+
+  @media (max-width: $mobile-breakpoint) {
+    column-count: 1;
+  }
 }
 
 .footer-info__title {
@@ -38,6 +43,14 @@
     color: inherit;
     text-decoration: none;
     display: block;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media (max-width: $mobile-breakpoint) {
+    margin-bottom: 17px;
   }
 }
 
