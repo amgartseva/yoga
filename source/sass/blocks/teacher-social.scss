@@ -70,6 +70,7 @@
 .teacher-social__icon--vk {
   @media (max-width: $tablet-breakpoint) {
     width: 9px;
+    height: 7px;
   }
 
   @media (max-width: $mobile-breakpoint) {
@@ -82,8 +83,9 @@
   margin-top: 2px;
 
   @media (max-width: $tablet-breakpoint) {
-    margin-top: 2px;
+    margin-top: 0;
     width: 11px;
+    height: 9px;
   }
 
   @media (max-width: $mobile-breakpoint) {

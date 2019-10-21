@@ -1101,9 +1101,9 @@ img {
   @media (max-width: 767px) {
     .courses__wrapper {
       display: block;
-      width: 100%;
-      padding-left: 35px;
-      padding-right: 35px; } }
+      width: 78%;
+      padding-left: 0;
+      padding-right: 0; } }
 
 .courses__column {
   display: -webkit-box;
@@ -1577,6 +1577,7 @@ img {
       padding-left: 17px; } }
   @media (max-width: 767px) {
     .options {
+      width: 100%;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
@@ -1619,7 +1620,7 @@ img {
         width: 32.8%; } }
   @media (max-width: 767px) {
     .options__item {
-      width: 87%;
+      width: 78%;
       padding-top: 25px;
       padding-bottom: 30px;
       margin: 0;
@@ -1627,7 +1628,7 @@ img {
       margin-left: auto;
       margin-bottom: 29px; }
       .options__item:hover {
-        width: 87%;
+        width: 78%;
         margin-right: auto;
         margin-left: auto;
         padding-bottom: 30px; } }
@@ -2319,7 +2320,8 @@ img {
 
 @media (max-width: 1023px) {
   .teacher-social__icon--vk {
-    width: 9px; } }
+    width: 9px;
+    height: 7px; } }
 
 @media (max-width: 767px) {
   .teacher-social__icon--vk {
@@ -2330,8 +2332,9 @@ img {
   margin-top: 2px; }
   @media (max-width: 1023px) {
     .teacher-social__icon--tw {
-      margin-top: 2px;
-      width: 11px; } }
+      margin-top: 0;
+      width: 11px;
+      height: 9px; } }
   @media (max-width: 767px) {
     .teacher-social__icon--tw {
       width: 18px;
