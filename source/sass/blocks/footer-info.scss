@@ -39,22 +39,21 @@
   margin: 0;
   margin-bottom: 33px;
 
-  &--link {
-    color: inherit;
-    text-decoration: none;
-    display: block;
-
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-
   @media (max-width: $mobile-breakpoint) {
     margin-bottom: 17px;
   }
 }
 
-.footer-info__phone .footer-info__text {
+.footer-info__link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.footer-info__text--phone {
   font-size: 14px;
 }
 
