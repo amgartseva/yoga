@@ -68,6 +68,11 @@
 .team__number {
   top: 48%;
   right: 0;
+
+  @media (max-width: $tablet-breakpoint) {
+    top: 46.5%;
+    padding-right: 27px;
+  }
 }
 
 .team__wrapper {

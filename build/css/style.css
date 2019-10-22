@@ -726,7 +726,7 @@ img {
   top: 39.8%; }
   @media (max-width: 1023px) {
     .header__number {
-      top: 39.5%; } }
+      top: 43%; } }
 
 .header-top {
   display: -webkit-box;
@@ -1079,7 +1079,8 @@ img {
   padding-right: 60px; }
   @media (max-width: 1023px) {
     .courses__number {
-      padding-right: 30px; } }
+      padding-right: 30px;
+      top: 39.5%; } }
 
 .courses__wrapper {
   display: -webkit-box;
@@ -1480,6 +1481,7 @@ img {
   top: 33%; }
   @media (max-width: 1023px) {
     .subscribtion__number {
+      padding-right: 29px;
       top: 44%; } }
 
 .subscribtion__heading {
